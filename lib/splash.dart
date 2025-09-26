@@ -40,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 SizedBox(height: 16,),
                 Spacer(),
                 Text(
-                  '© جميع الحقوق محفوظة لتموينات فضاء الخليج والعلامة التجارية الخاصة بها',
+                  '© جميع الحقوق محفوظة لتموينات منارة أمجاد والعلامة التجارية الخاصة بها',
                   style: TextStyle(
                     fontSize: 12,
                     color: Colors.white70,

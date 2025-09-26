@@ -28,7 +28,7 @@ class CustomLaunchUrl {
             mimeType: 'image/png',
           ),
         ],
-        subject: 'فضاء الخليج - ${title.trim()}',
+        subject: 'منارة أمجاد - ${title.trim()}',
         text: '''
          ---------------         
          
@@ -37,13 +37,13 @@ class CustomLaunchUrl {
           📄 التفاصيل:
           $details
           
-          📞 للتواصل: 0547884523
+          📞 للتواصل: -----------
           
                    ---------------         
           
-          🌐 https://marketfadaalhalij.artawiya.com/
+          🌐 https://manarat-amjad.artawiya.com/
       
-      تطبيق فضاء الخليج
+      تطبيق منارة أمجاد
             ''',
         sharePositionOrigin: Rect.fromCircle(
           center: Offset(10, 10),
@@ -71,7 +71,7 @@ $details
 
 📞 للتواصل: $phone
             ⚡💯💯💯💯💯💯💯⚡
-🌐 https://marketfadaalhalij.artawiya.com/
+🌐 https://manarat-amjad.artawiya.com/
            ⚡💯💯💯💯💯💯💯⚡
 
       ''';
@@ -96,7 +96,7 @@ $details
               mimeType: 'image/png',
             ),
           ],
-          subject: 'فضاء الخليج - ${title.trim()}',
+          subject: 'منارة أمجاد - ${title.trim()}',
           text: shareText,
           sharePositionOrigin: Rect.fromCircle(
             center: Offset(10, 10),
@@ -132,7 +132,7 @@ $details
 //             mimeType: 'image/png',
 //           ),
 //         ],
-//         subject: 'فضاء الخليج - ${title.trim()}',
+//         subject: 'منارة أمجاد - ${title.trim()}',
 //         text: '''
 //
 //
@@ -143,7 +143,7 @@ $details
 //
 // 📞 للتواصل:  0547884523
 //             ⚡💯💯💯💯💯💯💯⚡
-// 🌐 https://marketfadaalhalij.artawiya.com/
+// 🌐 https://manarat-amjad.artawiya.com/
 //            ⚡💯💯💯💯💯💯💯⚡
 //
 //       ''',
@@ -173,8 +173,8 @@ $details
           $phone
           ---------------
           
-          تطبيق فضاء الخليج
-          https://marketfadaalhalij.artawiya.com/
+          تطبيق منارة أمجاد
+          https://manarat-amjad.artawiya.com/
           ''';
       await Share.share(shareText);
     } else {
@@ -205,7 +205,7 @@ $details
 
 📞 للتواصل:   $phone
             ⚡💯💯💯💯💯💯💯⚡
-🌐 https://marketfadaalhalij.artawiya.com/
+🌐 https://manarat-amjad.artawiya.com/
            ⚡💯💯💯💯💯💯💯⚡
 
       ''',

@@ -31,9 +31,9 @@ class _CustomIconShareState extends State<CustomIconShare> {
 
         try {
           await CustomLaunchUrl.launchUrlShareApp(
-            title: widget.title ?? '',
-            urlPreview: widget.urlPreview ?? '',
-            details: widget.details ?? '',
+            title: widget.title,
+            urlPreview: widget.urlPreview,
+            details: widget.details,
           );
         } catch (e) {
           // ممكن تعرض SnackBar أو رسالة خطأ
@@ -52,27 +52,26 @@ class _CustomIconShareState extends State<CustomIconShare> {
           duration: const Duration(milliseconds: 300),
           transitionBuilder:
               (child, animation) =>
-              FadeTransition(opacity: animation, child: child),
+                  FadeTransition(opacity: animation, child: child),
           child:
-          _isSharing
-              ? const SizedBox(
-            key: ValueKey("loading"),
-            width: 20,
-            height: 20,
-            child: CircularProgressIndicator(
-              color: Colors.white,
-              strokeWidth: 2,
-            ),
-          )
-              : Icon(
-            key: ValueKey("icon"),
-            size: 20,
-            Icons.share, // استخدم أيقونة المشاركة
-            color: ColorManager.white,
-          ),
+              _isSharing
+                  ? const SizedBox(
+                    key: ValueKey("loading"),
+                    width: 20,
+                    height: 20,
+                    child: CircularProgressIndicator(
+                      color: Colors.white,
+                      strokeWidth: 2,
+                    ),
+                  )
+                  : Icon(
+                    key: ValueKey("icon"),
+                    size: 20,
+                    Icons.share, // استخدم أيقونة المشاركة
+                    color: ColorManager.white,
+                  ),
         ),
       ),
-
     );
   }
 }

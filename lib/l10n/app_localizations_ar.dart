@@ -18,7 +18,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get home => 'الرئيسية';
 
   @override
-  String get appName => 'فضاء الخليج';
+  String get appName => 'منارة أمجاد';
 
   @override
   String get category => ' القسم';

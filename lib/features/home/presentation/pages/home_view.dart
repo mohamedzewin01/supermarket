@@ -50,7 +50,7 @@ class _HomeViewState extends State<HomeView> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              CustomSliverAppBar(title: "تموينات فضاء الخليج"),
+              CustomSliverAppBar(title: "تموينات منارة أمجاد"),
               // AppBarBody(store: store)
             ];
           },

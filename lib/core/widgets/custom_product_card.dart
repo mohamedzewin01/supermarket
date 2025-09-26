@@ -1,23 +1,14 @@
-import 'dart:io';
-import 'dart:typed_data';
 
 import 'package:another_flushbar/flushbar.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:fada_alhalij_web/core/api/api_constants.dart';
 import 'package:fada_alhalij_web/core/di/di.dart';
 import 'package:fada_alhalij_web/core/functions/is_user_logged_in.dart';
 import 'package:fada_alhalij_web/core/resources/assets_manager.dart';
 import 'package:fada_alhalij_web/core/resources/color_manager.dart';
 import 'package:fada_alhalij_web/core/resources/style_manager.dart';
 import 'package:fada_alhalij_web/core/resources/values_manager.dart';
-import 'package:fada_alhalij_web/core/widgets/add_to_cart_button.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_elevated_button.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_text_form_field.dart';
 import 'package:fada_alhalij_web/features/analytics/analytics_helper.dart';
-import 'package:fada_alhalij_web/features/app_search/presentation/bloc/search_cubit.dart';
-import 'package:fada_alhalij_web/features/auth/presentation/pages/auth_screen.dart';
 import 'package:fada_alhalij_web/features/cart/presentation/cubit/cart_cubit.dart';
-import 'package:fada_alhalij_web/features/layout/presentation/cubit/layout_cubit.dart';
 import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
 import 'package:fada_alhalij_web/features/products/presentation/widgets/product_details.dart';
 import 'package:fada_alhalij_web/l10n/app_localizations.dart';
