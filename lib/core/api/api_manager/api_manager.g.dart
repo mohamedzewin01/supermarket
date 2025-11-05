@@ -10,7 +10,7 @@ part of 'api_manager.dart';
 
 class _ApiService implements ApiService {
   _ApiService(this._dio, {this.baseUrl, this.errorLogger}) {
-    baseUrl ??= 'https://artawiya.com/fadaalhalj/api/v2/';
+    baseUrl ??= 'https://artawiya.com/manartamjaadDB/api/v2/';
   }
 
   final Dio _dio;
