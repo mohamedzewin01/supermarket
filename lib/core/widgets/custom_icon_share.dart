@@ -31,6 +31,7 @@ class _CustomIconShareState extends State<CustomIconShare> {
 
         try {
           await CustomLaunchUrl.launchUrlShareApp(
+
             title: widget.title,
             urlPreview: widget.urlPreview,
             details: widget.details,

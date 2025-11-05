@@ -1,6 +1,7 @@
 import 'package:fada_alhalij_web/core/resources/color_manager.dart';
 import 'package:fada_alhalij_web/core/resources/style_manager.dart';
 import 'package:fada_alhalij_web/core/widgets/custom_dialog.dart';
+import 'package:fada_alhalij_web/core/widgets/custom_error_widget.dart';
 import 'package:fada_alhalij_web/core/widgets/custom_product_card.dart';
 import 'package:fada_alhalij_web/core/widgets/ske_grid_product.dart';
 import 'package:fada_alhalij_web/features/home/presentation/pages/home_view.dart';

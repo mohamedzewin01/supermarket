@@ -11,8 +11,11 @@ class ColorManager {
   static const Color primary3 = Color(0xFFd8dbfc );
   static const Color primaryLight = Color(0xff536dfe);
   static const Color background = Color(0xfff5f5f5);
+  static const Color backgroundColor = Color(0xffF5F9FC);
   static const Color backgroundSecondary = Color(0xffe8eaf6);
   static const Color white = Color(0xffFFFFFF);
+  static const Color textColor = Color(0xff1A1A1A);
+  static const Color deepOrange = Color(0xffff5722);
 
   static const Color textSecondary = Color(0xffc5cae9);
   static const Color textDark = Color(0xff212121);

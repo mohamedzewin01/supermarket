@@ -1,6 +1,7 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:fada_alhalij_web/core/api/api_constants.dart';
 import 'package:fada_alhalij_web/core/widgets/custom_dialog.dart';
+import 'package:fada_alhalij_web/core/widgets/custom_error_widget.dart';
 import 'package:fada_alhalij_web/core/widgets/ske_grid_product.dart';
 import 'package:fada_alhalij_web/features/categories/presentation/widgets/ske_categories.dart';
 import 'package:fada_alhalij_web/features/home/presentation/pages/home_view.dart';
