@@ -1,5 +1,6 @@
 
 
+import 'package:fada_alhalij_web/core/utils/remote_config.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -21,6 +22,7 @@ Future<void> main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
   await CacheService.cacheInitialization();
+  ForceUpdateChecker().fetchAppEnabledStatus();
   configureDependencies();
   Bloc.observer = MyBlocObserver();
   runApp(

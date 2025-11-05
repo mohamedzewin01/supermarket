@@ -29,7 +29,7 @@ class OrdersDataSourcesRepoImpl implements OrdersDataSourcesRepo {
   @override
   Future<Result<GetActiveOrdersEntity?>> getActiveOrders() {
     return executeApi(() async {
-      int? userId = await CacheService.getData(key: CacheConstants.userId)??0;
+      int? userId = await CacheService.getData(key: CacheKeys.userId)??0;
 
       GetActiveOrdersRequest getActiveOrdersRequest = GetActiveOrdersRequest(userId: userId);
       var response = await apiService.getActiveOrders(getActiveOrdersRequest);
@@ -40,7 +40,7 @@ class OrdersDataSourcesRepoImpl implements OrdersDataSourcesRepo {
   @override
   Future<Result<GetActiveOrdersEntity?>> getCompletedOrder() {
    return executeApi(() async {
-     int? userId = await CacheService.getData(key: CacheConstants.userId)??0;
+     int? userId = await CacheService.getData(key: CacheKeys.userId)??0;
 
      GetActiveOrdersRequest getActiveOrdersRequest = GetActiveOrdersRequest(userId: userId);
      var response = await apiService.getCompletedOrder(getActiveOrdersRequest);

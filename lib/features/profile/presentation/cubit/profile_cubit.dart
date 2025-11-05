@@ -22,7 +22,7 @@ class ProfileCubit extends Cubit<ProfileState> {
   static ProfileCubit get(context) => BlocProvider.of(context);
   Future<void> getProfile() async {
     emit(ProfileLoading());
-    int? userId = await CacheService.getData(key: CacheConstants.userId) ?? 0;
+    int? userId = await CacheService.getData(key: CacheKeys.userId) ?? 0;
     GetUserInfoRequest getUserInfoRequest = GetUserInfoRequest(
       id: userId,
     );
@@ -51,7 +51,7 @@ class ProfileCubit extends Cubit<ProfileState> {
   Future<void> editProfile({required String email,required String name,required String phone}) async {
     emit(EditProfileLoading());
     EditProfileRequest editProfileRequest = EditProfileRequest(
-      id: CacheService.getData(key: CacheConstants.userId),
+      id: CacheService.getData(key: CacheKeys.userId),
       email: email,
       name: name,
       phone: phone

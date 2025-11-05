@@ -50,7 +50,7 @@ class AddressCubit extends Cubit<AddressState> {
   final longController = TextEditingController();
   final detailsController = TextEditingController();
 
-  int? idUser = CacheService.getData(key: CacheConstants.userId) ?? 0;
+  int? idUser = CacheService.getData(key: CacheKeys.userId) ?? 0;
 
   int idUserArea = 0;
 int deliveryAreaId = 0;
@@ -103,7 +103,7 @@ int deliveryAreaId = 0;
 
   void deleteAddress({required int idAddress,required int deliveryAreaId }) async {
 
-    int? userId = await CacheService.getData(key: CacheConstants.userId) ?? 0;
+    int? userId = await CacheService.getData(key: CacheKeys.userId) ?? 0;
     final result = await _cartUseCase.editAddressesUser(
       EditAddressRequest(isActive: 0,userId: userId,id: idAddress,deliveryAreaId: deliveryAreaId,),
     );

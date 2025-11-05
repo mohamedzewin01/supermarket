@@ -13,7 +13,7 @@ class LocaleCubit extends Cubit<Locale> {
   void changeLanguage(String languageCode) async {
     emit(Locale(languageCode));
     await CacheService.setData(
-        key: CacheConstants.defaultLanguage, value: languageCode);
+        key: CacheKeys.defaultLanguage, value: languageCode);
   }
 
   String changeFontFamily() {
@@ -22,7 +22,7 @@ class LocaleCubit extends Cubit<Locale> {
 
   void _loadSavedLanguage() {
     final savedLanguage =
-        CacheService.getData(key: CacheConstants.defaultLanguage) ?? 'ar';
+        CacheService.getData(key: CacheKeys.defaultLanguage) ?? 'ar';
     emit(Locale(savedLanguage));
   }
 }

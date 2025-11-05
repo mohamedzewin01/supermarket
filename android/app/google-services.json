@@ -1,32 +1,13 @@
 {
   "project_info": {
-    "project_number": "114265146280",
-    "project_id": "fkmarket-83c01",
-    "storage_bucket": "fkmarket-83c01.firebasestorage.app"
+    "project_number": "739339976487",
+    "project_id": "super-market-artawia",
+    "storage_bucket": "super-market-artawia.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:114265146280:android:6b2c3b381ead6681f3939d",
-        "android_client_info": {
-          "package_name": "com.example.delivery"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyC-9OLMkBJgJvjxYUyHm_xalr7bNETG4RE"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:114265146280:android:18bbcb5165817a44f3939d",
+        "mobilesdk_app_id": "1:739339976487:android:9edd831d33fdef10f5f302",
         "android_client_info": {
           "package_name": "com.example.fada_alhalij_web"
         }
@@ -34,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyC-9OLMkBJgJvjxYUyHm_xalr7bNETG4RE"
+          "current_key": "AIzaSyAPeXWVNMrCMMR057n5NZRDOg_kW7BRpp0"
         }
       ],
       "services": {

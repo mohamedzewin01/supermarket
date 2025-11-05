@@ -24,7 +24,7 @@ class CartCubit extends Cubit<CartState> {
 
   static CartCubit get(context) => BlocProvider.of(context);
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
-  int? idUser = CacheService.getData(key: CacheConstants.userId) ?? 0;
+  int? idUser = CacheService.getData(key: CacheKeys.userId) ?? 0;
   int? idAddress;
   void updateIdAddress(int? newIdAddress) {
     idAddress = newIdAddress;
@@ -188,7 +188,7 @@ class CartCubit extends Cubit<CartState> {
 
 
   Future<void> addToCart({required int idProduct}) async {
-    int? userId = await CacheService.getData(key: CacheConstants.userId);
+    int? userId = await CacheService.getData(key: CacheKeys.userId);
     AddToCartRequest addToCartRequest = AddToCartRequest(
       productId: idProduct,
       quantity: 1,

@@ -20,7 +20,7 @@ class OrdersCubit extends Cubit<OrdersState> {
   Future<void> addOrder({required int idAddress}) async {
     emit(AddOrdersLoading());
     AddOrderRequest addOrderRequest = AddOrderRequest(
-      userId: CacheService.getData(key: CacheConstants.userId) ?? 0,
+      userId: CacheService.getData(key: CacheKeys.userId) ?? 0,
       userAddress: idAddress
     );
    var result = await addOrderUseCaseRepo.addOrder(addOrderRequest);

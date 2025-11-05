@@ -51,8 +51,8 @@ Future<void> getAndSaveDeviceInfo() async {
 
   //print("deviceId: $deviceId, deviceName: $deviceName");
 
-  await CacheService.setData(key: CacheConstants.deviceId, value: deviceId);
-  await CacheService.setData(key: CacheConstants.deviceName, value: deviceName);
+  await CacheService.setData(key: CacheKeys.deviceId, value: deviceId);
+  await CacheService.setData(key: CacheKeys.deviceName, value: deviceName);
   await sendDeviceData(deviceId: deviceId, deviceName: deviceName);
 }
 
@@ -64,7 +64,7 @@ Future<Result<DeviceResponse>> sendDeviceData({required String deviceId, require
 
     return executeApi(() async {
       final response = await client.addDevice(deviceId, deviceName);
-  await CacheService.setData(key: CacheConstants.id, value: response.device?.id);
+  await CacheService.setData(key: CacheKeys.id, value: response.device?.id);
       return response;
     });
 
@@ -83,7 +83,7 @@ class AnalyticsHelper {
 
     final client =ApiService(_dio);
 
-    final cachedDeviceId = await CacheService.getData(key: CacheConstants.id);
+    final cachedDeviceId = await CacheService.getData(key: CacheKeys.id);
 
     try {
       final response = await client.addProductVisit(cachedDeviceId, productId);

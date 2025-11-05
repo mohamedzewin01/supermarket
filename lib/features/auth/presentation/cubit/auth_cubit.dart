@@ -38,23 +38,23 @@ class AuthCubit extends Cubit<AuthState> {
         {
           if (!isClosed) {
             await CacheService.setData(
-              key: CacheConstants.userId,
+              key: CacheKeys.userId,
               value: result.data?.user?.id,
             );
             await CacheService.setData(
-              key: CacheConstants.userName,
+              key: CacheKeys.userName,
               value: result.data?.user?.username,
             );
             await CacheService.setData(
-              key: CacheConstants.userEmail,
+              key: CacheKeys.userEmail,
               value: result.data?.user?.email,
             );
             await CacheService.setData(
-              key: CacheConstants.userPhone,
+              key: CacheKeys.userPhone,
               value: result.data?.user?.phone,
             );
             await CacheService.setData(
-              key: CacheConstants.isActive,
+              key: CacheKeys.isActive,
               value: true,
             );
 
@@ -85,23 +85,23 @@ class AuthCubit extends Cubit<AuthState> {
         {
           if (!isClosed) {
             await CacheService.setData(
-              key: CacheConstants.userId,
+              key: CacheKeys.userId,
               value: result.data?.user?.id,
             );
             await CacheService.setData(
-              key: CacheConstants.userName,
+              key: CacheKeys.userName,
               value: result.data?.user?.name,
             );
             await CacheService.setData(
-              key: CacheConstants.userEmail,
+              key: CacheKeys.userEmail,
               value: result.data?.user?.email,
             );
             await CacheService.setData(
-              key: CacheConstants.userPhone,
+              key: CacheKeys.userPhone,
               value: result.data?.user?.phone,
             );
             await CacheService.setData(
-              key: CacheConstants.isActive,
+              key: CacheKeys.isActive,
               value: true,
             );
             emit(AuthSignUpSuccess(result.data!));

@@ -20,7 +20,7 @@ class AddressRemoteDataSourceImpl implements AddressDataSource {
   @override
   Future<Result<GetUserAddressEntity?>> getUserAddress() {
     return executeApi(() async {
-      int? userId = await CacheService.getData(key: CacheConstants.userId) ?? 0;
+      int? userId = await CacheService.getData(key: CacheKeys.userId) ?? 0;
       GetUserAddressesRequest getUserAddressRequest = GetUserAddressesRequest(
         userId: userId,
       );

@@ -28,7 +28,7 @@ class CartDataSourcesRepoImpl implements CartDataSourcesRepo {
   @override
   Future<Result<CartEntity?>> getCart() {
     return executeApi(() async {
-      int? userId = await CacheService.getData(key: CacheConstants.userId)??0;
+      int? userId = await CacheService.getData(key: CacheKeys.userId)??0;
       var response = await _apiService.getCart(
         GetCartRequest(userId: userId),
       );

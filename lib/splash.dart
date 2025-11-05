@@ -1,3 +1,7 @@
+import 'package:fada_alhalij_web/core/utils/cashed_data_shared_preferences.dart';
+import 'package:fada_alhalij_web/core/utils/remote_config.dart';
+import 'package:fada_alhalij_web/core/widgets/app_closed_page.dart';
+import 'package:fada_alhalij_web/features/layout/presentation/pages/layout_view.dart';
 import 'package:flutter/material.dart';
 import 'package:fada_alhalij_web/core/resources/color_manager.dart';
 
@@ -58,12 +62,45 @@ class _SplashScreenState extends State<SplashScreen> {
       ),
     );
   }
+  Future<void> movedToNextPage() async {
+    await Future.delayed(const Duration(milliseconds: 2500));
 
-  void movedToNextPage() {
-    Future.delayed(const Duration(seconds: 4), () {
-      if (mounted) {
-        Navigator.pushReplacementNamed(context, RoutesManager.layout);
-      }
-    });
+    final isAppEnabled = await ForceUpdateChecker().fetchAppEnabledStatus();
+
+
+    Widget nextScreen;
+    if (!isAppEnabled) {
+      nextScreen = const AppClosedPage();
+    } else  {
+      nextScreen = const LayoutScreen();
+    }
+
+    if (!mounted) return;
+
+    Navigator.of(context).pushReplacement(
+      PageRouteBuilder(
+        pageBuilder: (context, animation, secondaryAnimation) => nextScreen,
+        transitionsBuilder: (context, animation, secondaryAnimation, child) {
+          return FadeTransition(
+            opacity: animation,
+            child: ScaleTransition(
+              scale: Tween<double>(begin: 0.8, end: 1.0).animate(
+                CurvedAnimation(parent: animation, curve: Curves.easeOutCubic),
+              ),
+              child: child,
+            ),
+          );
+        },
+        transitionDuration: const Duration(milliseconds: 600),
+      ),
+    );
   }
+  // void movedToNextPage() {
+  //   Future.delayed(const Duration(seconds: 4), () {
+  //     isAppEnabled ? const LayoutScreen() : const AppClosedPage();
+  //     if (mounted) {
+  //       Navigator.pushReplacementNamed(context, RoutesManager.layout);
+  //     }
+  //   });
+  // }
 }

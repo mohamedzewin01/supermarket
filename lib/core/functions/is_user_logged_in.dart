@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 Future<bool> isUserLoggedIn() async {
-  final userId = await CacheService.getData(key: CacheConstants.userId);
+  final userId = await CacheService.getData(key: CacheKeys.userId);
   print("User ID: $userId (${userId.runtimeType})");
 
   if (userId == null) {

@@ -47,14 +47,14 @@ class AppBarBody extends StatelessWidget {
             builder: (BuildContext context) {
               Future(() async {
                 await CustomLaunchUrl.launchUrlShareWeb(
-                  title: CacheService.getData(key: CacheConstants.storeName),
+                  title: CacheService.getData(key: CacheKeys.storeName),
                   details: CacheService.getData(
-                    key: CacheConstants.storeDescription,
+                    key: CacheKeys.storeDescription,
                   ),
                   urlPreview: CacheService.getData(
-                    key: CacheConstants.storeUrlImage,
+                    key: CacheKeys.storeUrlImage,
                   ),
-                  phone: CacheService.getData(key: CacheConstants.storePhone),
+                  phone: CacheService.getData(key: CacheKeys.storePhone),
                 );
                 if (context.mounted) {
                   Navigator.of(context).pop();

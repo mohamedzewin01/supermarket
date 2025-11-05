@@ -184,16 +184,16 @@ class _CustomShareInfoAppState extends State<CustomShareInfoApp> {
           await CustomLaunchUrl.launchUrlShareWeb(
 
             title: CacheService.getData(
-              key: CacheConstants.storeName,
+              key: CacheKeys.storeName,
             ),
             details: CacheService.getData(
-              key: CacheConstants.storeDescription,
+              key: CacheKeys.storeDescription,
             ),
             urlPreview: CacheService.getData(
-              key: CacheConstants.storeUrlImage,
+              key: CacheKeys.storeUrlImage,
             ),
             phone: CacheService.getData(
-              key: CacheConstants.storePhone,
+              key: CacheKeys.storePhone,
             ),
           );
         } catch (e) {

@@ -27,23 +27,23 @@ class HomeCubit extends Cubit<HomeState> {
         {
           if (!isClosed) {
             CacheService.setData(
-              key: CacheConstants.storeName,
+              key: CacheKeys.storeName,
               value: result.data?.data?.store?.storeName ?? '',
             );
             CacheService.setData(
-              key: CacheConstants.storeDescription,
+              key: CacheKeys.storeDescription,
               value: result.data?.data?.store?.storeDescreption ?? '',
             );
             CacheService.setData(
-              key: CacheConstants.storeUrlImage,
+              key: CacheKeys.storeUrlImage,
               value: result.data?.data?.store?.storeImage ?? '',
             );
             CacheService.setData(
-              key: CacheConstants.storeId,
+              key: CacheKeys.storeId,
               value: result.data?.data?.store?.storeId ?? '',
             );
             CacheService.setData(
-              key: CacheConstants.storePhone,
+              key: CacheKeys.storePhone,
               value: result.data?.data?.store?.storePhone ?? '',
             );
             emit(HomeSuccess(result.data));
