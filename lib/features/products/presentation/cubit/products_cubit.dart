@@ -145,10 +145,11 @@ class ProductsCubit extends Cubit<ProductsState> {
 
   // دالة لتحميل المزيد من المنتجات
   Future<void> loadMoreProducts() async {
+    // منع التحميل المكرر
     if (_isLoadingMore || !_hasMoreData || _currentCategoryId == null) return;
 
     _isLoadingMore = true;
-    emit(ProductsLoadingMore(_allProducts));
+    emit(ProductsLoadingMore(_allProducts)); // ← حالة تحميل إضافي
 
     await getProductsData(idCategory: _currentCategoryId!);
 

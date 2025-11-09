@@ -123,10 +123,10 @@ class _ProductsViewState extends State<ProductsView> {
 
   void _setupScrollListener() {
     _scrollController.addListener(() {
-      // عندما يصل المستخدم لـ 80% من المحتوى، نحمل المزيد
+      // عندما يصل المستخدم لـ 80% من المحتوى
       if (_scrollController.position.pixels >=
           _scrollController.position.maxScrollExtent * 0.8) {
-        viewModel.loadMoreProducts();
+        viewModel.loadMoreProducts(); // ← يطلب المزيد من البيانات
       }
     });
   }

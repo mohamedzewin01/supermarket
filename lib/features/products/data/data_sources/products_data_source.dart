@@ -12,19 +12,14 @@ class ProductsDataSource {
   ProductsDataSource(this.apiService);
 
   Future<Result<GetProductsByCategoryEntity?>> getProductsData(
-    String idCategory, {
-    required int page ,
-    required int limit ,
-  }) {
+      String idCategory, {
+        int page = 1,
+        int limit = 20,
+      }) {
     return executeApi(() async {
-      GetProductsByCategoryRequest productsByCategoryRequest =
-          GetProductsByCategoryRequest(
-            idCategory: int.parse(idCategory),
-            page: page,
-            perPage: limit,
-          );
       var response = await apiService.getProductsByCategory(
-        productsByCategoryRequest,
+        GetProductsByCategoryRequest(page: page,perPage: limit,idCategory: int.parse(idCategory))
+
       );
       return response?.toProductsModelEntity();
     });
