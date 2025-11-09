@@ -14,7 +14,10 @@ class ProductsRepoImpl implements ProductsRepo {
 
 
   @override
-  Future<Result<GetProductsByCategoryEntity?>> getProducts(String idCategory,int page,int perPage) {
-  return productsDataSourceRepo.getProductsData(idCategory, page, perPage);
+  Future<Result<GetProductsByCategoryEntity?>> getProducts( String idCategory, {
+   required int page ,
+    required int limit,
+  }) {
+  return productsDataSourceRepo.getProductsData(idCategory, page: page, limit: limit);
   }
 }

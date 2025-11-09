@@ -5,18 +5,27 @@ import 'package:fada_alhalij_web/features/products/data/models/requests/get_prod
 import 'package:fada_alhalij_web/features/products/domain/entities/products_entities.dart';
 import 'package:injectable/injectable.dart';
 
-
-
 @injectable
-class ProductsDataSource  {
+class ProductsDataSource {
   ApiService apiService;
 
   ProductsDataSource(this.apiService);
 
-  Future<Result<GetProductsByCategoryEntity?>> getProductsData(String idCategory,int page,int perPage) {
+  Future<Result<GetProductsByCategoryEntity?>> getProductsData(
+    String idCategory, {
+    required int page ,
+    required int limit ,
+  }) {
     return executeApi(() async {
-      GetProductsByCategoryRequest productsByCategoryRequest = GetProductsByCategoryRequest(idCategory:int.parse(idCategory),page: page,perPage: perPage);
-      var response = await apiService.getProductsByCategory(productsByCategoryRequest);
+      GetProductsByCategoryRequest productsByCategoryRequest =
+          GetProductsByCategoryRequest(
+            idCategory: int.parse(idCategory),
+            page: page,
+            perPage: limit,
+          );
+      var response = await apiService.getProductsByCategory(
+        productsByCategoryRequest,
+      );
       return response?.toProductsModelEntity();
     });
   }

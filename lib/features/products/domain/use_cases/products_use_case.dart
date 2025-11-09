@@ -11,7 +11,10 @@ class ProductsUseCase {
 
   ProductsUseCase(this.productsRepo);
 
-  Future<Result<GetProductsByCategoryEntity?>> getHomeData(String idCategory,int page,int perPage) {
-    return productsRepo.getProducts(idCategory, page, perPage);
+  Future<Result<GetProductsByCategoryEntity?>> getHomeData( String idCategory, {
+    required int page,
+   required int limit ,
+  }) {
+    return productsRepo.getProducts(idCategory, page: page, limit: limit);
   }
 }
