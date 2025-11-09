@@ -3,7 +3,8 @@ import 'package:fada_alhalij_web/core/di/di.dart';
 import 'package:fada_alhalij_web/core/functions/is_user_logged_in.dart';
 import 'package:fada_alhalij_web/core/resources/color_manager.dart';
 import 'package:fada_alhalij_web/features/cart/presentation/cubit/cart_cubit.dart';
-import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
+
+import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

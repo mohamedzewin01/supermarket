@@ -1,9 +1,10 @@
 import 'package:bloc/bloc.dart';
+import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:meta/meta.dart';
 
-import '../../../products/data/models/products_model_response.dart';
+
 
 part 'search_state.dart';
 

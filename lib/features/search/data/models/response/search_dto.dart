@@ -1,7 +1,7 @@
-import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
+
 import 'package:fada_alhalij_web/features/search/domain/entities/search_entity.dart';
 import 'package:json_annotation/json_annotation.dart';
-
+import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
 part 'search_dto.g.dart';
 
 @JsonSerializable()

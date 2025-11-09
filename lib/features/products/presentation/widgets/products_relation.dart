@@ -1,6 +1,6 @@
 import 'package:fada_alhalij_web/core/di/di.dart';
 import 'package:fada_alhalij_web/core/widgets/custom_product_card.dart';
-import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
+
 import 'package:fada_alhalij_web/features/products/presentation/cubit/products_cubit.dart';
 import 'package:fada_alhalij_web/features/products/presentation/widgets/custom_product_card.dart';
 import 'package:fada_alhalij_web/features/products/presentation/widgets/product_details.dart';
@@ -8,7 +8,7 @@ import 'package:fada_alhalij_web/features/products/presentation/widgets/ske_prod
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:skeletonizer/skeletonizer.dart';
-
+import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
 class ProductsRelation extends StatefulWidget {
   const ProductsRelation({
     super.key,

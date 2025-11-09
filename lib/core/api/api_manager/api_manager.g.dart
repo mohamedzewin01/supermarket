@@ -173,7 +173,7 @@ class _ApiService implements ApiService {
   }
 
   @override
-  Future<ProductsModelResponse> getProductsByCategory(
+  Future<GetProductsByCategoryModel?> getProductsByCategory(
     GetProductsByCategoryRequest getProductsByCategoryRequest,
   ) async {
     final _extra = <String, dynamic>{};
@@ -181,7 +181,7 @@ class _ApiService implements ApiService {
     final _headers = <String, dynamic>{};
     final _data = <String, dynamic>{};
     _data.addAll(getProductsByCategoryRequest.toJson());
-    final _options = _setStreamType<ProductsModelResponse>(
+    final _options = _setStreamType<GetProductsByCategoryModel>(
       Options(method: 'POST', headers: _headers, extra: _extra)
           .compose(
             _dio.options,
@@ -191,10 +191,13 @@ class _ApiService implements ApiService {
           )
           .copyWith(baseUrl: _combineBaseUrls(_dio.options.baseUrl, baseUrl)),
     );
-    final _result = await _dio.fetch<Map<String, dynamic>>(_options);
-    late ProductsModelResponse _value;
+    final _result = await _dio.fetch<Map<String, dynamic>?>(_options);
+    late GetProductsByCategoryModel? _value;
     try {
-      _value = ProductsModelResponse.fromJson(_result.data!);
+      _value =
+          _result.data == null
+              ? null
+              : GetProductsByCategoryModel.fromJson(_result.data!);
     } on Object catch (e, s) {
       errorLogger?.logError(e, s, _options);
       rethrow;

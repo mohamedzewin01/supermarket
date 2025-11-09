@@ -11,7 +11,7 @@ class ProductsUseCase {
 
   ProductsUseCase(this.productsRepo);
 
-  Future<Result<ProductsModelEntity?>> getHomeData(String idCategory,int page,int perPage) {
+  Future<Result<GetProductsByCategoryEntity?>> getHomeData(String idCategory,int page,int perPage) {
     return productsRepo.getProducts(idCategory, page, perPage);
   }
 }

@@ -9,7 +9,7 @@ import 'package:fada_alhalij_web/core/resources/style_manager.dart';
 import 'package:fada_alhalij_web/core/resources/values_manager.dart';
 import 'package:fada_alhalij_web/features/analytics/analytics_helper.dart';
 import 'package:fada_alhalij_web/features/cart/presentation/cubit/cart_cubit.dart';
-import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
+
 import 'package:fada_alhalij_web/features/products/presentation/widgets/product_details.dart';
 import 'package:fada_alhalij_web/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +18,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:skeletonizer/skeletonizer.dart';
 import '../resources/cashed_image.dart';
-
+import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
 
 class CustomProductCardWidget extends StatelessWidget {
   const CustomProductCardWidget({super.key, this.product});

@@ -2,7 +2,7 @@ import 'package:bloc/bloc.dart';
 import 'package:fada_alhalij_web/core/common/api_result.dart';
 import 'package:fada_alhalij_web/core/functions/extenstions.dart';
 import 'package:fada_alhalij_web/core/uses_cases/search/search_use_case_repo.dart';
-import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
+
 import 'package:fada_alhalij_web/features/search/data/models/request/search_request.dart';
 import 'package:fada_alhalij_web/features/search/data/models/response/search_dto.dart';
 import 'package:fada_alhalij_web/features/search/domain/entities/search_entity.dart';

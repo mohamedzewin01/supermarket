@@ -1,7 +1,19 @@
-import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
 
-class ProductsModelEntity {
-  ProductsData? productsData;
+import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
 
-  ProductsModelEntity({this.productsData});
+// class ProductsModelEntity {
+//   ProductsData? productsData;
+//
+//   ProductsModelEntity({this.productsData});
+// }
+
+class GetProductsByCategoryEntity {
+
+  final ProductsData? productsData;
+
+  GetProductsByCategoryEntity ({
+    this.productsData,
+  });
+
+
 }

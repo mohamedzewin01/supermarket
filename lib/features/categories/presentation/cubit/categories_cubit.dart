@@ -1,9 +1,9 @@
 
-
+import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
 import 'package:fada_alhalij_web/core/common/api_result.dart';
 import 'package:fada_alhalij_web/features/categories/domain/entities/categories_zone_entity.dart';
 import 'package:fada_alhalij_web/features/categories/domain/use_cases/categoriesUseCase.dart';
-import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';

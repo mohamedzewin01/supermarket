@@ -3,7 +3,7 @@
 // import 'package:fada_alhalij_web/core/resources/color_manager.dart';
 // import 'package:fada_alhalij_web/core/resources/style_manager.dart';
 // import 'package:fada_alhalij_web/features/analytics/analytics_helper.dart';
-// import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
+// 
 // import 'package:fada_alhalij_web/features/products/presentation/widgets/product_details.dart';
 // import 'package:fada_alhalij_web/l10n/app_localizations.dart';
 // import 'package:flutter/material.dart';

@@ -11,7 +11,7 @@ import 'package:fada_alhalij_web/core/widgets/custom_icon_share.dart';
 import 'package:fada_alhalij_web/core/widgets/custom_sliver_app_bar.dart';
 import 'package:fada_alhalij_web/core/widgets/rial_icon.dart';
 import 'package:fada_alhalij_web/features/cart/presentation/cubit/cart_cubit.dart';
-import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
+
 import 'package:fada_alhalij_web/features/products/presentation/widgets/button_add_to_cart_details.dart';
 import 'package:fada_alhalij_web/features/products/presentation/widgets/products_relation.dart';
 import 'package:fada_alhalij_web/l10n/app_localizations.dart';
@@ -20,7 +20,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
 import '../../../../core/resources/assets_manager.dart';
 import '../../../../core/resources/curve_clipper.dart';
-
+import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
 class ProductDetails extends StatelessWidget {
   const ProductDetails({super.key, required this.product});
 

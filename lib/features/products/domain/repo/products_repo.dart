@@ -4,5 +4,5 @@ import '../../../../core/common/api_result.dart';
 
 
 abstract class ProductsRepo {
-  Future<Result<ProductsModelEntity?>> getProducts(String idCategory,int page,int perPage);
+  Future<Result<GetProductsByCategoryEntity?>> getProducts(String idCategory,int page,int perPage);
 }

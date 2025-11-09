@@ -14,7 +14,7 @@ class ProductsRepoImpl implements ProductsRepo {
 
 
   @override
-  Future<Result<ProductsModelEntity?>> getProducts(String idCategory,int page,int perPage) {
+  Future<Result<GetProductsByCategoryEntity?>> getProducts(String idCategory,int page,int perPage) {
   return productsDataSourceRepo.getProductsData(idCategory, page, perPage);
   }
 }

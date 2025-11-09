@@ -13,11 +13,11 @@ class ProductsDataSource  {
 
   ProductsDataSource(this.apiService);
 
-  Future<Result<ProductsModelEntity?>> getProductsData(String idCategory,int page,int perPage) {
+  Future<Result<GetProductsByCategoryEntity?>> getProductsData(String idCategory,int page,int perPage) {
     return executeApi(() async {
       GetProductsByCategoryRequest productsByCategoryRequest = GetProductsByCategoryRequest(idCategory:int.parse(idCategory),page: page,perPage: perPage);
       var response = await apiService.getProductsByCategory(productsByCategoryRequest);
-      return response.toProductsModelEntity();
+      return response?.toProductsModelEntity();
     });
   }
 }

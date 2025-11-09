@@ -15,16 +15,16 @@ class ProductsCubit extends Cubit<ProductsState> {
   Future<void> getProductsData({required String idCategory}) async {
     emit(ProductsLoading());
 
-    final result = await _productsUseCase.getHomeData(idCategory);
+    final result = await _productsUseCase.getHomeData(idCategory,1,3);
     switch (result) {
-      case Success<ProductsModelEntity?>():
+      case Success<GetProductsByCategoryEntity?>():
         {
           if (!isClosed) {
             emit(ProductsSuccess(result.data));
           }
         }
 
-      case Fail<ProductsModelEntity?>():
+      case Fail<GetProductsByCategoryEntity?>():
         {
           emit(ProductsFail(result.exception));
         }

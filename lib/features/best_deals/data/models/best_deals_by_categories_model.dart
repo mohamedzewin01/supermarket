@@ -1,6 +1,6 @@
 import 'package:fada_alhalij_web/features/best_deals/domain/entities/best_deals_by_categories_entity.dart';
-import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
 
+import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
 class BestDealsByCategoriesModel {
   BestDealsByCategoriesModel({
       this.categoryList,});

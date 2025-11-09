@@ -1,7 +1,7 @@
 import 'package:fada_alhalij_web/core/resources/style_manager.dart';
 import 'package:fada_alhalij_web/features/categories/presentation/pages/categories.dart';
 import 'package:fada_alhalij_web/features/layout/presentation/cubit/layout_cubit.dart';
-import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
+
 import 'package:fada_alhalij_web/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';

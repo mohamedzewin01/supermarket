@@ -2,10 +2,10 @@
 
 
 import 'package:fada_alhalij_web/core/widgets/custom_product_card.dart';
-import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
+
 import 'package:flutter/material.dart';
 import 'package:skeletonizer/skeletonizer.dart';
-
+import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
 class SkeProductsRelation extends StatelessWidget {
   const SkeProductsRelation({super.key});
 
