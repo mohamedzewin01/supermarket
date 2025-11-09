@@ -32,6 +32,7 @@ import 'package:fada_alhalij_web/features/order/data/models/request/get_active_o
 import 'package:fada_alhalij_web/features/order/data/models/response/add_order_dto.dart';
 import 'package:fada_alhalij_web/features/order/data/models/response/get_active_orders_dto.dart';
 import 'package:fada_alhalij_web/features/products/data/models/products_model_response.dart';
+import 'package:fada_alhalij_web/features/products/data/models/requests/get_products_by_category_request.dart';
 import 'package:fada_alhalij_web/features/profile/data/models/request/get_user_info_request.dart';
 import 'package:fada_alhalij_web/features/profile/data/models/response/get_user_info_dto.dart';
 import 'package:fada_alhalij_web/features/search/data/models/request/search_request.dart';
@@ -69,7 +70,7 @@ abstract class ApiService {
 
   @POST(ApiConstants.fetchProductsByCategories)
   Future<ProductsModelResponse> getProductsByCategory(
-    @Part(name: 'idCategory') String idCategory,
+   @Body() GetProductsByCategoryRequest getProductsByCategoryRequest,
   );
 
   @POST(ApiConstants.addDevice)

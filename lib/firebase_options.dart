@@ -41,49 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDNORLuK4OeGvoEYYElhNlgEw5SrjYUSZM',
-    appId: '1:739339976487:web:c9d1d13ecfe26f1cf5f302',
-    messagingSenderId: '739339976487',
-    projectId: 'super-market-artawia',
-    authDomain: 'super-market-artawia.firebaseapp.com',
-    storageBucket: 'super-market-artawia.firebasestorage.app',
-    measurementId: 'G-7NKDC5MY82',
+    apiKey: 'AIzaSyAbYpYQbkXuYZR-7yHq5WmwbG5OblPOtCU',
+    appId: '1:191929514173:web:51219f9be2aef7035ddfd4',
+    messagingSenderId: '191929514173',
+    projectId: 'supermarket-amjad',
+    authDomain: 'supermarket-amjad.firebaseapp.com',
+    storageBucket: 'supermarket-amjad.firebasestorage.app',
+    measurementId: 'G-E73SX6TBHX',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAPeXWVNMrCMMR057n5NZRDOg_kW7BRpp0',
-    appId: '1:739339976487:android:9edd831d33fdef10f5f302',
-    messagingSenderId: '739339976487',
-    projectId: 'super-market-artawia',
-    storageBucket: 'super-market-artawia.firebasestorage.app',
+    apiKey: 'AIzaSyC7CeU16aou5DvGV2Lm9U7ZRZuta-LGa2Q',
+    appId: '1:191929514173:android:95906d6b334436715ddfd4',
+    messagingSenderId: '191929514173',
+    projectId: 'supermarket-amjad',
+    storageBucket: 'supermarket-amjad.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAvF1lJS2tApiKChdML2l3IRCwy0iX5jWo',
-    appId: '1:739339976487:ios:1a6672ca7160c4a8f5f302',
-    messagingSenderId: '739339976487',
-    projectId: 'super-market-artawia',
-    storageBucket: 'super-market-artawia.firebasestorage.app',
+    apiKey: 'AIzaSyBUkbhTbT70mZvtccQfZbZZB6TbdEJNqW8',
+    appId: '1:191929514173:ios:1294f69690ada3015ddfd4',
+    messagingSenderId: '191929514173',
+    projectId: 'supermarket-amjad',
+    storageBucket: 'supermarket-amjad.firebasestorage.app',
     iosBundleId: 'com.example.fadaAlhalijWeb',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAvF1lJS2tApiKChdML2l3IRCwy0iX5jWo',
-    appId: '1:739339976487:ios:1a6672ca7160c4a8f5f302',
-    messagingSenderId: '739339976487',
-    projectId: 'super-market-artawia',
-    storageBucket: 'super-market-artawia.firebasestorage.app',
+    apiKey: 'AIzaSyBUkbhTbT70mZvtccQfZbZZB6TbdEJNqW8',
+    appId: '1:191929514173:ios:1294f69690ada3015ddfd4',
+    messagingSenderId: '191929514173',
+    projectId: 'supermarket-amjad',
+    storageBucket: 'supermarket-amjad.firebasestorage.app',
     iosBundleId: 'com.example.fadaAlhalijWeb',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDNORLuK4OeGvoEYYElhNlgEw5SrjYUSZM',
-    appId: '1:739339976487:web:996261cfd7ee4d51f5f302',
-    messagingSenderId: '739339976487',
-    projectId: 'super-market-artawia',
-    authDomain: 'super-market-artawia.firebaseapp.com',
-    storageBucket: 'super-market-artawia.firebasestorage.app',
-    measurementId: 'G-TNQVR55NM4',
+    apiKey: 'AIzaSyAbYpYQbkXuYZR-7yHq5WmwbG5OblPOtCU',
+    appId: '1:191929514173:web:858cee3d567433025ddfd4',
+    messagingSenderId: '191929514173',
+    projectId: 'supermarket-amjad',
+    authDomain: 'supermarket-amjad.firebaseapp.com',
+    storageBucket: 'supermarket-amjad.firebasestorage.app',
+    measurementId: 'G-XC30244J1W',
   );
 
 }

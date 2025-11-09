@@ -173,17 +173,19 @@ class _ApiService implements ApiService {
   }
 
   @override
-  Future<ProductsModelResponse> getProductsByCategory(String idCategory) async {
+  Future<ProductsModelResponse> getProductsByCategory(
+    GetProductsByCategoryRequest getProductsByCategoryRequest,
+  ) async {
     final _extra = <String, dynamic>{};
     final queryParameters = <String, dynamic>{};
     final _headers = <String, dynamic>{};
-    final _data = FormData();
-    _data.fields.add(MapEntry('idCategory', idCategory));
+    final _data = <String, dynamic>{};
+    _data.addAll(getProductsByCategoryRequest.toJson());
     final _options = _setStreamType<ProductsModelResponse>(
       Options(method: 'POST', headers: _headers, extra: _extra)
           .compose(
             _dio.options,
-            'products/fetchProductsByCategories.php',
+            'products/new_fetch_products.php',
             queryParameters: queryParameters,
             data: _data,
           )

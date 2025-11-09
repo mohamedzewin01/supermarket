@@ -13,7 +13,7 @@ class ApiConstants {
   static const String categories = "categories/fetchCategories.php";
   static const String fetchBestDeals = "bestDeals/fetchBestDeals";
   static const String fetchBanners = "banners/fetchBanners.php";
-  static const String fetchProductsByCategories = "products/fetchProductsByCategories.php";
+  static const String fetchProductsByCategories = "products/new_fetch_products.php";
   static const String fetchBestDealsByCate = "bestDeals/fetchBestDealsByCate.php";
   static const String addDevice = "analytics/device/add_device";
   static const String productVisit = "analytics/product_visits/add_product_visit";
