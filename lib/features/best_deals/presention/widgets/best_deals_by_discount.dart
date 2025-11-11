@@ -1,9 +1,9 @@
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:fada_alhalij_web/core/di/di.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_product_card.dart';
-import 'package:fada_alhalij_web/features/best_deals/data/models/best_deals_by_discount.dart';
-import 'package:fada_alhalij_web/features/best_deals/presention/cubit/best_by_discount/best_discount_by_discount_cubit.dart';
+import 'package:manarat_amjad/core/di/di.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/widgets/custom_product_card.dart';
+import 'package:manarat_amjad/features/best_deals/data/models/best_deals_by_discount.dart';
+import 'package:manarat_amjad/features/best_deals/presention/cubit/best_by_discount/best_discount_by_discount_cubit.dart';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

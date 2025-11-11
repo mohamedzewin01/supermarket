@@ -1,12 +1,12 @@
-import 'package:fada_alhalij_web/core/di/di.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-import 'package:fada_alhalij_web/core/resources/style_manager.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_app_bar.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_dialog.dart';
-import 'package:fada_alhalij_web/features/address/data/models/response/get_user_dto.dart';
-import 'package:fada_alhalij_web/features/address/presentation/widgets/add_address.dart';
-import 'package:fada_alhalij_web/features/address/presentation/blocs/my_address/address_cubit.dart';
-import 'package:fada_alhalij_web/features/address/presentation/widgets/address_item.dart';
+import 'package:manarat_amjad/core/di/di.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/resources/style_manager.dart';
+import 'package:manarat_amjad/core/widgets/custom_app_bar.dart';
+import 'package:manarat_amjad/core/widgets/custom_dialog.dart';
+import 'package:manarat_amjad/features/address/data/models/response/get_user_dto.dart';
+import 'package:manarat_amjad/features/address/presentation/widgets/add_address.dart';
+import 'package:manarat_amjad/features/address/presentation/blocs/my_address/address_cubit.dart';
+import 'package:manarat_amjad/features/address/presentation/widgets/address_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

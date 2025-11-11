@@ -1,6 +1,6 @@
-import 'package:fada_alhalij_web/core/widgets/custom_elevated_button.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_text_form_field.dart';
-import 'package:fada_alhalij_web/features/auth/presentation/cubit/auth_cubit.dart';
+import 'package:manarat_amjad/core/widgets/custom_elevated_button.dart';
+import 'package:manarat_amjad/core/widgets/custom_text_form_field.dart';
+import 'package:manarat_amjad/features/auth/presentation/cubit/auth_cubit.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/resources/color_manager.dart';

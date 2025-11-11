@@ -1,5 +1,5 @@
 
-import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
+import 'package:manarat_amjad/features/products/data/models/response/get_products_by_category_model.dart';
 
 // class ProductsModelEntity {
 //   ProductsData? productsData;

@@ -1,5 +1,5 @@
-import 'package:fada_alhalij_web/core/functions/launch_url.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/functions/launch_url.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
 import 'package:flutter/material.dart';
 
 class CustomIconShare extends StatefulWidget {

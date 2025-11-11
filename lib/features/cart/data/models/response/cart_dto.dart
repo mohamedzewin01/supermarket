@@ -1,5 +1,5 @@
-import 'package:fada_alhalij_web/features/cart/domain/entities/cart_entities.dart';
-import 'package:fada_alhalij_web/features/order/data/models/response/get_active_orders_dto.dart';
+import 'package:manarat_amjad/features/cart/domain/entities/cart_entities.dart';
+import 'package:manarat_amjad/features/order/data/models/response/get_active_orders_dto.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'cart_dto.g.dart';

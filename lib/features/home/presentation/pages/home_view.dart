@@ -1,15 +1,15 @@
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:fada_alhalij_web/core/resources/app_constants.dart';
-import 'package:fada_alhalij_web/core/resources/routes_manager.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_dialog.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_error_widget.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_sliver_app_bar.dart';
-import 'package:fada_alhalij_web/features/home/presentation/widgets/custom_card.dart';
-import 'package:fada_alhalij_web/features/home/presentation/widgets/sek_home.dart';
-import 'package:fada_alhalij_web/l10n/app_localizations.dart';
+import 'package:manarat_amjad/core/resources/app_constants.dart';
+import 'package:manarat_amjad/core/resources/routes_manager.dart';
+import 'package:manarat_amjad/core/widgets/custom_dialog.dart';
+import 'package:manarat_amjad/core/widgets/custom_error_widget.dart';
+import 'package:manarat_amjad/core/widgets/custom_sliver_app_bar.dart';
+import 'package:manarat_amjad/features/home/presentation/widgets/custom_card.dart';
+import 'package:manarat_amjad/features/home/presentation/widgets/sek_home.dart';
+import 'package:manarat_amjad/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
 import '../../../../core/di/di.dart';
 import '../../../../core/resources/style_manager.dart';
 import '../../../../core/widgets/see_all_view.dart';
@@ -266,13 +266,13 @@ class _HomeViewState extends State<HomeView> {
 
 
 // import 'package:auto_size_text/auto_size_text.dart';
-// import 'package:fada_alhalij_web/core/resources/app_constants.dart';
-// import 'package:fada_alhalij_web/core/resources/routes_manager.dart';
-// import 'package:fada_alhalij_web/features/home/presentation/widgets/custom_card.dart';
-// import 'package:fada_alhalij_web/l10n/app_localizations.dart';
+// import 'package:manarat_amjad/core/resources/app_constants.dart';
+// import 'package:manarat_amjad/core/resources/routes_manager.dart';
+// import 'package:manarat_amjad/features/home/presentation/widgets/custom_card.dart';
+// import 'package:manarat_amjad/l10n/app_localizations.dart';
 // import 'package:flutter/material.dart';
 // import 'package:flutter_bloc/flutter_bloc.dart';
-// import 'package:fada_alhalij_web/core/resources/color_manager.dart';
+// import 'package:manarat_amjad/core/resources/color_manager.dart';
 // import '../../../../core/di/di.dart';
 // import '../../../../core/resources/style_manager.dart';
 // import '../../../../core/widgets/see_all_view.dart';

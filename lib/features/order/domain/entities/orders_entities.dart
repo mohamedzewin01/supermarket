@@ -1,7 +1,7 @@
 
 
-import 'package:fada_alhalij_web/features/order/data/models/response/add_order_dto.dart';
-import 'package:fada_alhalij_web/features/order/data/models/response/get_active_orders_dto.dart' hide OrderItems;
+import 'package:manarat_amjad/features/order/data/models/response/add_order_dto.dart';
+import 'package:manarat_amjad/features/order/data/models/response/get_active_orders_dto.dart' hide OrderItems;
 
 class AddOrderEntity {
 

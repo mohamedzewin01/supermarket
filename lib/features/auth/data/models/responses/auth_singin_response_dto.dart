@@ -1,4 +1,4 @@
-import 'package:fada_alhalij_web/features/auth/domain/entities/auth_entities.dart';
+import 'package:manarat_amjad/features/auth/domain/entities/auth_entities.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'auth_singin_response_dto.g.dart';

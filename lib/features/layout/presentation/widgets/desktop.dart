@@ -1,6 +1,6 @@
-import 'package:fada_alhalij_web/features/app_search/presentation/bloc/search_cubit.dart';
+import 'package:manarat_amjad/features/app_search/presentation/bloc/search_cubit.dart';
 import 'package:flutter/material.dart';
-import 'package:fada_alhalij_web/features/layout/presentation/widgets/mobile.dart';
+import 'package:manarat_amjad/features/layout/presentation/widgets/mobile.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../core/resources/assets_manager.dart';

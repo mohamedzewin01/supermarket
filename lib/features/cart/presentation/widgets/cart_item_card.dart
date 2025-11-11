@@ -1,9 +1,9 @@
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:fada_alhalij_web/core/resources/cashed_image.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-import 'package:fada_alhalij_web/core/resources/style_manager.dart';
-import 'package:fada_alhalij_web/core/widgets/rial_icon.dart';
-import 'package:fada_alhalij_web/features/cart/presentation/cubit/cart_cubit.dart';
+import 'package:manarat_amjad/core/resources/cashed_image.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/resources/style_manager.dart';
+import 'package:manarat_amjad/core/widgets/rial_icon.dart';
+import 'package:manarat_amjad/features/cart/presentation/cubit/cart_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 

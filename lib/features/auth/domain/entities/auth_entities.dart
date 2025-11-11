@@ -1,6 +1,6 @@
 
-import 'package:fada_alhalij_web/features/auth/data/models/responses/auth_signup_response_dto.dart';
-import 'package:fada_alhalij_web/features/auth/data/models/responses/auth_singin_response_dto.dart';
+import 'package:manarat_amjad/features/auth/data/models/responses/auth_signup_response_dto.dart';
+import 'package:manarat_amjad/features/auth/data/models/responses/auth_singin_response_dto.dart';
 
 class AuthSignupEntity {
 

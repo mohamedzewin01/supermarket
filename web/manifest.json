@@ -1,11 +1,11 @@
 {
-    "name": "fada_alhalij_web",
-    "short_name": "fada_alhalij_web",
+    "name": "manarat_amjad",
+    "short_name": "manarat_amjad",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#hexcode",
     "theme_color": "#hexcode",
-    "description": "A new Flutter project.",
+    "description": "متجر إلكتروني لبقالات منارة أمجاد",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

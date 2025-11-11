@@ -1,11 +1,11 @@
 // import 'package:auto_size_text/auto_size_text.dart';
-// import 'package:fada_alhalij_web/core/resources/cashed_image.dart';
-// import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-// import 'package:fada_alhalij_web/core/resources/style_manager.dart';
-// import 'package:fada_alhalij_web/features/analytics/analytics_helper.dart';
+// import 'package:manarat_amjad/core/resources/cashed_image.dart';
+// import 'package:manarat_amjad/core/resources/color_manager.dart';
+// import 'package:manarat_amjad/core/resources/style_manager.dart';
+// import 'package:manarat_amjad/features/analytics/analytics_helper.dart';
 // 
-// import 'package:fada_alhalij_web/features/products/presentation/widgets/product_details.dart';
-// import 'package:fada_alhalij_web/l10n/app_localizations.dart';
+// import 'package:manarat_amjad/features/products/presentation/widgets/product_details.dart';
+// import 'package:manarat_amjad/l10n/app_localizations.dart';
 // import 'package:flutter/material.dart';
 // import 'package:get/get.dart';
 // import 'package:get/get_core/src/get_main.dart';

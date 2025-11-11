@@ -1,4 +1,4 @@
-import 'package:fada_alhalij_web/features/order/domain/entities/orders_entities.dart';
+import 'package:manarat_amjad/features/order/domain/entities/orders_entities.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'add_order_dto.g.dart';

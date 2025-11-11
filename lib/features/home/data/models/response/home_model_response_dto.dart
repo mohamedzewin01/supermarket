@@ -1,7 +1,7 @@
-import 'package:fada_alhalij_web/features/home/domain/entities/home_entities.dart';
+import 'package:manarat_amjad/features/home/domain/entities/home_entities.dart';
 
 import 'package:json_annotation/json_annotation.dart';
-import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
+import 'package:manarat_amjad/features/products/data/models/response/get_products_by_category_model.dart';
 part 'home_model_response_dto.g.dart';
 
 @JsonSerializable()

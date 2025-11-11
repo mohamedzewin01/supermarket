@@ -1,10 +1,10 @@
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:fada_alhalij_web/core/functions/launch_url.dart';
-import 'package:fada_alhalij_web/core/resources/curve_clipper.dart';
-import 'package:fada_alhalij_web/core/resources/style_manager.dart';
-import 'package:fada_alhalij_web/core/utils/cashed_data_shared_preferences.dart';
-import 'package:fada_alhalij_web/features/home/data/models/response/home_model_response_dto.dart';
-import 'package:fada_alhalij_web/localization/locale_cubit.dart';
+import 'package:manarat_amjad/core/functions/launch_url.dart';
+import 'package:manarat_amjad/core/resources/curve_clipper.dart';
+import 'package:manarat_amjad/core/resources/style_manager.dart';
+import 'package:manarat_amjad/core/utils/cashed_data_shared_preferences.dart';
+import 'package:manarat_amjad/features/home/data/models/response/home_model_response_dto.dart';
+import 'package:manarat_amjad/localization/locale_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';

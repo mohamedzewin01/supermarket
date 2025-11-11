@@ -1,14 +1,14 @@
-import 'package:fada_alhalij_web/core/di/di.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-import 'package:fada_alhalij_web/core/resources/style_manager.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_dialog.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_elevated_button.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_sliver_app_bar.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_text_form_field.dart';
-import 'package:fada_alhalij_web/features/auth/presentation/cubit/auth_cubit.dart';
-import 'package:fada_alhalij_web/features/layout/presentation/cubit/layout_cubit.dart';
-import 'package:fada_alhalij_web/features/profile/data/models/response/get_user_info_dto.dart';
-import 'package:fada_alhalij_web/features/profile/presentation/cubit/profile_cubit.dart';
+import 'package:manarat_amjad/core/di/di.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/resources/style_manager.dart';
+import 'package:manarat_amjad/core/widgets/custom_dialog.dart';
+import 'package:manarat_amjad/core/widgets/custom_elevated_button.dart';
+import 'package:manarat_amjad/core/widgets/custom_sliver_app_bar.dart';
+import 'package:manarat_amjad/core/widgets/custom_text_form_field.dart';
+import 'package:manarat_amjad/features/auth/presentation/cubit/auth_cubit.dart';
+import 'package:manarat_amjad/features/layout/presentation/cubit/layout_cubit.dart';
+import 'package:manarat_amjad/features/profile/data/models/response/get_user_info_dto.dart';
+import 'package:manarat_amjad/features/profile/presentation/cubit/profile_cubit.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

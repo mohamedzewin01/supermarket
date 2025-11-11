@@ -1,7 +1,7 @@
-import 'package:fada_alhalij_web/features/best_deals/presention/pages/best_deals_view.dart';
-import 'package:fada_alhalij_web/features/cart/presentation/pages/cart_view.dart';
-import 'package:fada_alhalij_web/features/profile/presentation/pages/profile.dart';
-import 'package:fada_alhalij_web/features/search/presentation/pages/search_view.dart';
+import 'package:manarat_amjad/features/best_deals/presention/pages/best_deals_view.dart';
+import 'package:manarat_amjad/features/cart/presentation/pages/cart_view.dart';
+import 'package:manarat_amjad/features/profile/presentation/pages/profile.dart';
+import 'package:manarat_amjad/features/search/presentation/pages/search_view.dart';
 import 'package:flutter/material.dart';
 
 

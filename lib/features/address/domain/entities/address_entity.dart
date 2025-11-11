@@ -1,5 +1,5 @@
-import 'package:fada_alhalij_web/features/address/data/models/response/get_delivery_areas_dto.dart';
-import 'package:fada_alhalij_web/features/address/data/models/response/get_user_dto.dart';
+import 'package:manarat_amjad/features/address/data/models/response/get_delivery_areas_dto.dart';
+import 'package:manarat_amjad/features/address/data/models/response/get_user_dto.dart';
 
 
 class GetUserAddressEntity {

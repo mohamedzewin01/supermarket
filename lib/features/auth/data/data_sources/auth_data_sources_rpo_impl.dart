@@ -1,12 +1,12 @@
-import 'package:fada_alhalij_web/core/api/api_extentions.dart';
-import 'package:fada_alhalij_web/core/api/api_manager/api_manager.dart';
-import 'package:fada_alhalij_web/core/common/api_result.dart';
-import 'package:fada_alhalij_web/features/auth/data/models/request/auth_signin_request.dart';
+import 'package:manarat_amjad/core/api/api_extentions.dart';
+import 'package:manarat_amjad/core/api/api_manager/api_manager.dart';
+import 'package:manarat_amjad/core/common/api_result.dart';
+import 'package:manarat_amjad/features/auth/data/models/request/auth_signin_request.dart';
 
-import 'package:fada_alhalij_web/features/auth/data/models/request/auth_signup_request.dart';
-import 'package:fada_alhalij_web/features/auth/data/models/request/edit_profile_request.dart';
+import 'package:manarat_amjad/features/auth/data/models/request/auth_signup_request.dart';
+import 'package:manarat_amjad/features/auth/data/models/request/edit_profile_request.dart';
 
-import 'package:fada_alhalij_web/features/auth/domain/entities/auth_entities.dart';
+import 'package:manarat_amjad/features/auth/domain/entities/auth_entities.dart';
 import 'package:injectable/injectable.dart';
 
 import 'auth_data_sources_repo.dart';

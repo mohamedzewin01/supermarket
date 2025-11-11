@@ -1,8 +1,8 @@
 // import 'package:flutter/material.dart';
 // import 'package:flutter_svg/svg.dart';
 // import 'package:get/get.dart';
-// import 'package:fada_alhalij_web/core/resources/cashed_image.dart';
-// import 'package:fada_alhalij_web/core/resources/color_manager.dart';
+// import 'package:manarat_amjad/core/resources/cashed_image.dart';
+// import 'package:manarat_amjad/core/resources/color_manager.dart';
 // import '../../../../core/resources/assets_manager.dart';
 // import '../../../../views/common_widgets/appBar.dart';
 // import '../../data/models/response/home_model_response_dto.dart';

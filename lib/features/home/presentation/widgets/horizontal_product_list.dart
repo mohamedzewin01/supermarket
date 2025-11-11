@@ -1,10 +1,10 @@
 import 'dart:developer';
 
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-import 'package:fada_alhalij_web/core/resources/style_manager.dart';
-import 'package:fada_alhalij_web/core/utils/cashed_data_shared_preferences.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_product_card.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/resources/style_manager.dart';
+import 'package:manarat_amjad/core/utils/cashed_data_shared_preferences.dart';
+import 'package:manarat_amjad/core/widgets/custom_product_card.dart';
 import 'package:flutter/material.dart';
 import '../../data/models/response/home_model_response_dto.dart';
 
@@ -96,9 +96,9 @@ class BestDealsProductList extends StatelessWidget {
 // );
 
 // import 'package:auto_size_text/auto_size_text.dart';
-// import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-// import 'package:fada_alhalij_web/core/resources/style_manager.dart';
-// import 'package:fada_alhalij_web/core/widgets/custom_product_card.dart';
+// import 'package:manarat_amjad/core/resources/color_manager.dart';
+// import 'package:manarat_amjad/core/resources/style_manager.dart';
+// import 'package:manarat_amjad/core/widgets/custom_product_card.dart';
 // import 'package:flutter/material.dart';
 // import '../../data/models/response/home_model_response_dto.dart';
 //

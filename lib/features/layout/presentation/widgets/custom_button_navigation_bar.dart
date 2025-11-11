@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fada_alhalij_web/core/functions/helper.dart';
+import 'package:manarat_amjad/core/functions/helper.dart';
 
 import '../../../../core/resources/assets_manager.dart';
 import '../../../../core/resources/color_manager.dart';

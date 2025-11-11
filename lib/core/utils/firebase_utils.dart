@@ -1,8 +1,8 @@
 import 'dart:developer';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:fada_alhalij_web/core/api/model/order_firebase_model.dart';
-import 'package:fada_alhalij_web/core/resources/app_constants.dart';
+import 'package:manarat_amjad/core/api/model/order_firebase_model.dart';
+import 'package:manarat_amjad/core/resources/app_constants.dart';
 
 
 class FirebaseUtils {

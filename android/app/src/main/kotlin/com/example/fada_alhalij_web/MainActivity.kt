@@ -1,4 +1,4 @@
-package com.example.fada_alhalij_web
+package com.example.manarat_amjad
 
 import io.flutter.embedding.android.FlutterActivity
 

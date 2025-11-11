@@ -1,6 +1,6 @@
-import 'package:fada_alhalij_web/core/di/di.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_sliver_app_bar.dart';
-import 'package:fada_alhalij_web/features/categories/presentation/cubit/categories_cubit.dart';
+import 'package:manarat_amjad/core/di/di.dart';
+import 'package:manarat_amjad/core/widgets/custom_sliver_app_bar.dart';
+import 'package:manarat_amjad/features/categories/presentation/cubit/categories_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

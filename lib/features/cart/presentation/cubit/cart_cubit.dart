@@ -1,15 +1,15 @@
 import 'dart:developer';
 
 import 'package:bloc/bloc.dart';
-import 'package:fada_alhalij_web/core/common/api_result.dart';
-import 'package:fada_alhalij_web/core/utils/cashed_data_shared_preferences.dart';
-import 'package:fada_alhalij_web/features/cart/data/models/request/add_to_cart_request.dart';
-import 'package:fada_alhalij_web/features/cart/data/models/request/delete_item_cart_request.dart';
-import 'package:fada_alhalij_web/features/cart/data/models/request/update_cart_item.dart';
-import 'package:fada_alhalij_web/features/cart/data/models/response/cart_dto.dart';
-import 'package:fada_alhalij_web/features/cart/domain/entities/cart_entities.dart';
-import 'package:fada_alhalij_web/features/cart/domain/use_cases/cart_use_case.dart';
-import 'package:fada_alhalij_web/features/cart/presentation/pages/cart_view.dart';
+import 'package:manarat_amjad/core/common/api_result.dart';
+import 'package:manarat_amjad/core/utils/cashed_data_shared_preferences.dart';
+import 'package:manarat_amjad/features/cart/data/models/request/add_to_cart_request.dart';
+import 'package:manarat_amjad/features/cart/data/models/request/delete_item_cart_request.dart';
+import 'package:manarat_amjad/features/cart/data/models/request/update_cart_item.dart';
+import 'package:manarat_amjad/features/cart/data/models/response/cart_dto.dart';
+import 'package:manarat_amjad/features/cart/domain/entities/cart_entities.dart';
+import 'package:manarat_amjad/features/cart/domain/use_cases/cart_use_case.dart';
+import 'package:manarat_amjad/features/cart/presentation/pages/cart_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';

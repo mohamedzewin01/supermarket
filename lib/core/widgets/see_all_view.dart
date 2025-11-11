@@ -1,4 +1,4 @@
-import 'package:fada_alhalij_web/core/resources/style_manager.dart';
+import 'package:manarat_amjad/core/resources/style_manager.dart';
 import 'package:flutter/material.dart';
 
 import '../../l10n/app_localizations.dart';

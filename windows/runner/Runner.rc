@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "fada_alhalij_web" "\0"
+            VALUE "FileDescription", "manarat_amjad" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "fada_alhalij_web" "\0"
+            VALUE "InternalName", "manarat_amjad" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "fada_alhalij_web.exe" "\0"
-            VALUE "ProductName", "fada_alhalij_web" "\0"
+            VALUE "OriginalFilename", "manarat_amjad.exe" "\0"
+            VALUE "ProductName", "manarat_amjad" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,6 +1,6 @@
 //
-import 'package:fada_alhalij_web/core/resources/routes_manager.dart';
-import 'package:fada_alhalij_web/features/layout/presentation/cubit/layout_cubit.dart';
+import 'package:manarat_amjad/core/resources/routes_manager.dart';
+import 'package:manarat_amjad/features/layout/presentation/cubit/layout_cubit.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../../../core/widgets/categories_view.dart';
@@ -42,8 +42,8 @@ class GridCategories extends StatelessWidget {
   }
 }
 
-// import 'package:fada_alhalij_web/core/resources/routes_manager.dart';
-// import 'package:fada_alhalij_web/core/resources/color_manager.dart';
+// import 'package:manarat_amjad/core/resources/routes_manager.dart';
+// import 'package:manarat_amjad/core/resources/color_manager.dart';
 // import 'package:flutter/material.dart';
 // import '../../../../core/widgets/categories_view.dart';
 // import '../../data/models/response/home_model_response_dto.dart';

@@ -1,5 +1,5 @@
-import 'package:fada_alhalij_web/core/api/api_constants.dart';
-import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
+import 'package:manarat_amjad/core/api/api_constants.dart';
+import 'package:manarat_amjad/features/products/data/models/response/get_products_by_category_model.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'package:open_filex/open_filex.dart';

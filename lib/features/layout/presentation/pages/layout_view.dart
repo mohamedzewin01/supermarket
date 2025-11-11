@@ -1,5 +1,5 @@
-import 'package:fada_alhalij_web/core/di/di.dart';
-import 'package:fada_alhalij_web/features/cart/presentation/cubit/cart_cubit.dart';
+import 'package:manarat_amjad/core/di/di.dart';
+import 'package:manarat_amjad/features/cart/presentation/cubit/cart_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

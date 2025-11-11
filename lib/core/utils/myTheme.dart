@@ -1,4 +1,4 @@
-import 'package:fada_alhalij_web/core/resources/values_manager.dart';
+import 'package:manarat_amjad/core/resources/values_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

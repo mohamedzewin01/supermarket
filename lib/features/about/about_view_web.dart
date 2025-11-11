@@ -1,7 +1,7 @@
-import 'package:fada_alhalij_web/core/resources/assets_manager.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-import 'package:fada_alhalij_web/core/resources/style_manager.dart';
-import 'package:fada_alhalij_web/core/utils/iframe_view.dart';
+import 'package:manarat_amjad/core/resources/assets_manager.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/resources/style_manager.dart';
+import 'package:manarat_amjad/core/utils/iframe_view.dart';
 import 'package:flutter/material.dart';
 
 class AboutViewWeb extends StatefulWidget {

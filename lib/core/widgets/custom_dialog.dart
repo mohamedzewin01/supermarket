@@ -1,6 +1,6 @@
-import 'package:fada_alhalij_web/core/resources/assets_manager.dart';
-import 'package:fada_alhalij_web/core/widgets/permission_service.dart';
-import 'package:fada_alhalij_web/features/layout/presentation/cubit/layout_cubit.dart';
+import 'package:manarat_amjad/core/resources/assets_manager.dart';
+import 'package:manarat_amjad/core/widgets/permission_service.dart';
+import 'package:manarat_amjad/features/layout/presentation/cubit/layout_cubit.dart';
 import 'package:flutter/material.dart';
 
 import '../resources/color_manager.dart';

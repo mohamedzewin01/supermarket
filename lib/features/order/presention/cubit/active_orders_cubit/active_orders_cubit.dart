@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
-import 'package:fada_alhalij_web/core/common/api_result.dart';
-import 'package:fada_alhalij_web/core/uses_cases/orders/add_order_use_case_repo.dart';
-import 'package:fada_alhalij_web/features/order/domain/entities/orders_entities.dart';
-import 'package:fada_alhalij_web/features/order/presention/cubit/orders_cubit.dart';
+import 'package:manarat_amjad/core/common/api_result.dart';
+import 'package:manarat_amjad/core/uses_cases/orders/add_order_use_case_repo.dart';
+import 'package:manarat_amjad/features/order/domain/entities/orders_entities.dart';
+import 'package:manarat_amjad/features/order/presention/cubit/orders_cubit.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
 import 'package:meta/meta.dart';

@@ -1,7 +1,7 @@
 
 
 import 'package:bloc/bloc.dart';
-import 'package:fada_alhalij_web/core/utils/cashed_data_shared_preferences.dart';
+import 'package:manarat_amjad/core/utils/cashed_data_shared_preferences.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
 import 'package:meta/meta.dart';

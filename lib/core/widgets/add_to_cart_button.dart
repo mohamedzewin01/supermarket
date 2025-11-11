@@ -1,7 +1,7 @@
-import 'package:fada_alhalij_web/core/resources/assets_manager.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-import 'package:fada_alhalij_web/core/resources/values_manager.dart';
-import 'package:fada_alhalij_web/features/cart/presentation/cubit/cart_cubit.dart';
+import 'package:manarat_amjad/core/resources/assets_manager.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/resources/values_manager.dart';
+import 'package:manarat_amjad/features/cart/presentation/cubit/cart_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';

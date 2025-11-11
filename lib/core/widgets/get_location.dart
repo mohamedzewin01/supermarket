@@ -1,4 +1,4 @@
-import 'package:fada_alhalij_web/features/address/presentation/blocs/my_address/address_cubit.dart';
+import 'package:manarat_amjad/features/address/presentation/blocs/my_address/address_cubit.dart';
 import 'package:flutter/foundation.dart';
 import 'package:geolocator/geolocator.dart';
 // import 'package:geolocator_web/geolocator_web.dart';

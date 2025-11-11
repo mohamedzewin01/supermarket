@@ -1,6 +1,6 @@
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-import 'package:fada_alhalij_web/features/cart/presentation/cubit/cart_cubit.dart';
-import 'package:fada_alhalij_web/features/cart/presentation/widgets/cart_item_card.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
+import 'package:manarat_amjad/features/cart/presentation/cubit/cart_cubit.dart';
+import 'package:manarat_amjad/features/cart/presentation/widgets/cart_item_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 

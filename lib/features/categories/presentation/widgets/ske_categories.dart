@@ -1,7 +1,7 @@
-import 'package:fada_alhalij_web/core/api/api_constants.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-import 'package:fada_alhalij_web/core/resources/style_manager.dart';
-import 'package:fada_alhalij_web/core/widgets/ske_grid_product.dart';
+import 'package:manarat_amjad/core/api/api_constants.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/resources/style_manager.dart';
+import 'package:manarat_amjad/core/widgets/ske_grid_product.dart';
 import 'package:flutter/material.dart';
 import 'package:skeletonizer/skeletonizer.dart';
 

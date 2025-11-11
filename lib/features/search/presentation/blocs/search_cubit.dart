@@ -1,11 +1,11 @@
 import 'package:bloc/bloc.dart';
-import 'package:fada_alhalij_web/core/common/api_result.dart';
-import 'package:fada_alhalij_web/core/functions/extenstions.dart';
-import 'package:fada_alhalij_web/core/uses_cases/search/search_use_case_repo.dart';
+import 'package:manarat_amjad/core/common/api_result.dart';
+import 'package:manarat_amjad/core/functions/extenstions.dart';
+import 'package:manarat_amjad/core/uses_cases/search/search_use_case_repo.dart';
 
-import 'package:fada_alhalij_web/features/search/data/models/request/search_request.dart';
-import 'package:fada_alhalij_web/features/search/data/models/response/search_dto.dart';
-import 'package:fada_alhalij_web/features/search/domain/entities/search_entity.dart';
+import 'package:manarat_amjad/features/search/data/models/request/search_request.dart';
+import 'package:manarat_amjad/features/search/data/models/response/search_dto.dart';
+import 'package:manarat_amjad/features/search/domain/entities/search_entity.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';

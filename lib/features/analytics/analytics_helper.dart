@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'dart:html' as html;
 import 'package:dio/dio.dart';
-import 'package:fada_alhalij_web/core/api/api_extentions.dart';
-import 'package:fada_alhalij_web/core/api/api_manager/api_manager.dart';
-import 'package:fada_alhalij_web/core/common/api_result.dart';
-import 'package:fada_alhalij_web/core/utils/cashed_data_shared_preferences.dart';
+import 'package:manarat_amjad/core/api/api_extentions.dart';
+import 'package:manarat_amjad/core/api/api_manager/api_manager.dart';
+import 'package:manarat_amjad/core/common/api_result.dart';
+import 'package:manarat_amjad/core/utils/cashed_data_shared_preferences.dart';
 import '../../core/api/dio_provider.dart';
 import 'model/device_response.dart';
 

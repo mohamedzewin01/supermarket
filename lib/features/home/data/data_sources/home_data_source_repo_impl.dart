@@ -1,6 +1,6 @@
-import 'package:fada_alhalij_web/core/api/api_extentions.dart';
-import 'package:fada_alhalij_web/core/common/api_result.dart';
-import 'package:fada_alhalij_web/features/home/domain/entities/home_entities.dart';
+import 'package:manarat_amjad/core/api/api_extentions.dart';
+import 'package:manarat_amjad/core/common/api_result.dart';
+import 'package:manarat_amjad/features/home/domain/entities/home_entities.dart';
 import 'package:injectable/injectable.dart';
 
 import '../../../../core/api/api_manager/api_manager.dart';

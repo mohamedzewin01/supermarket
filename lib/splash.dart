@@ -1,9 +1,9 @@
-import 'package:fada_alhalij_web/core/utils/cashed_data_shared_preferences.dart';
-import 'package:fada_alhalij_web/core/utils/remote_config.dart';
-import 'package:fada_alhalij_web/core/widgets/app_closed_page.dart';
-import 'package:fada_alhalij_web/features/layout/presentation/pages/layout_view.dart';
+import 'package:manarat_amjad/core/utils/cashed_data_shared_preferences.dart';
+import 'package:manarat_amjad/core/utils/remote_config.dart';
+import 'package:manarat_amjad/core/widgets/app_closed_page.dart';
+import 'package:manarat_amjad/features/layout/presentation/pages/layout_view.dart';
 import 'package:flutter/material.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
 
 import 'core/resources/assets_manager.dart';
 import 'core/resources/routes_manager.dart';

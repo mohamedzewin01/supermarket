@@ -1,10 +1,10 @@
 
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-import 'package:fada_alhalij_web/core/resources/style_manager.dart';
-import 'package:fada_alhalij_web/core/widgets/rial_icon.dart';
-import 'package:fada_alhalij_web/features/order/data/models/response/get_active_orders_dto.dart';
-import 'package:fada_alhalij_web/features/order/presention/widgets/order_details.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/resources/style_manager.dart';
+import 'package:manarat_amjad/core/widgets/rial_icon.dart';
+import 'package:manarat_amjad/features/order/data/models/response/get_active_orders_dto.dart';
+import 'package:manarat_amjad/features/order/presention/widgets/order_details.dart';
 import 'package:flutter/material.dart';
 
 class CartActiveOrderItemCard extends StatefulWidget {

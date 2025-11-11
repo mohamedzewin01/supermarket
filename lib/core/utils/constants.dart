@@ -1,4 +1,4 @@
-import 'package:fada_alhalij_web/core/resources/assets_manager.dart';
+import 'package:manarat_amjad/core/resources/assets_manager.dart';
 
 class Constants {
   static const baseUrl = "https://api.example.com";

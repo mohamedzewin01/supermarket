@@ -1,6 +1,6 @@
 
-import 'package:fada_alhalij_web/core/resources/cashed_image.dart';
-import 'package:fada_alhalij_web/features/cart/data/models/response/cart_dto.dart';
+import 'package:manarat_amjad/core/resources/cashed_image.dart';
+import 'package:manarat_amjad/features/cart/data/models/response/cart_dto.dart';
 import 'package:flutter/material.dart';
 import 'package:skeletonizer/skeletonizer.dart';
 

@@ -1,5 +1,6 @@
-name: fada_alhalij_web
-description: "A new Flutter project."
+name: manarat_amjad
+description: "متجر إلكتروني لبقالات منارة أمجاد"
+
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 

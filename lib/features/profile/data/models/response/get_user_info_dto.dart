@@ -1,4 +1,4 @@
-import 'package:fada_alhalij_web/features/profile/domain/entities/profile_entities.dart';
+import 'package:manarat_amjad/features/profile/domain/entities/profile_entities.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'get_user_info_dto.g.dart';

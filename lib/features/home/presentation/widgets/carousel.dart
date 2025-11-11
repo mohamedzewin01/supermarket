@@ -1,9 +1,9 @@
 import 'dart:math';
 
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:fada_alhalij_web/core/api/api_constants.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-import 'package:fada_alhalij_web/core/resources/style_manager.dart';
+import 'package:manarat_amjad/core/api/api_constants.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/resources/style_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -122,10 +122,10 @@ class Carousel extends StatelessWidget {
 //
 // import 'dart:math';
 // import 'package:carousel_slider/carousel_slider.dart';
-// import 'package:fada_alhalij_web/core/api/api_constants.dart';
-// import 'package:fada_alhalij_web/core/resources/cashed_image.dart';
-// import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-// import 'package:fada_alhalij_web/core/resources/style_manager.dart';
+// import 'package:manarat_amjad/core/api/api_constants.dart';
+// import 'package:manarat_amjad/core/resources/cashed_image.dart';
+// import 'package:manarat_amjad/core/resources/color_manager.dart';
+// import 'package:manarat_amjad/core/resources/style_manager.dart';
 // import 'package:flutter/material.dart';
 // import 'package:google_fonts/google_fonts.dart';
 // import '../../data/models/response/home_model_response_dto.dart';

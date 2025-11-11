@@ -1,8 +1,8 @@
-import 'package:fada_alhalij_web/core/api/api_extentions.dart';
-import 'package:fada_alhalij_web/core/api/api_manager/api_manager.dart';
-import 'package:fada_alhalij_web/core/common/api_result.dart';
-import 'package:fada_alhalij_web/features/products/data/models/requests/get_products_by_category_request.dart';
-import 'package:fada_alhalij_web/features/products/domain/entities/products_entities.dart';
+import 'package:manarat_amjad/core/api/api_extentions.dart';
+import 'package:manarat_amjad/core/api/api_manager/api_manager.dart';
+import 'package:manarat_amjad/core/common/api_result.dart';
+import 'package:manarat_amjad/features/products/data/models/requests/get_products_by_category_request.dart';
+import 'package:manarat_amjad/features/products/domain/entities/products_entities.dart';
 import 'package:injectable/injectable.dart';
 
 @injectable

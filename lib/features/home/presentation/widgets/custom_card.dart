@@ -1,9 +1,9 @@
 import 'dart:ui';
-import 'package:fada_alhalij_web/core/resources/cashed_image.dart';
-import 'package:fada_alhalij_web/core/utils/cashed_data_shared_preferences.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_elevated_button.dart';
-import 'package:fada_alhalij_web/features/best_deals/presention/widgets/best_deals_by_discount.dart';
-import 'package:fada_alhalij_web/features/home/data/models/response/home_model_response_dto.dart';
+import 'package:manarat_amjad/core/resources/cashed_image.dart';
+import 'package:manarat_amjad/core/utils/cashed_data_shared_preferences.dart';
+import 'package:manarat_amjad/core/widgets/custom_elevated_button.dart';
+import 'package:manarat_amjad/features/best_deals/presention/widgets/best_deals_by_discount.dart';
+import 'package:manarat_amjad/features/home/data/models/response/home_model_response_dto.dart';
 
 import '../../../../core/resources/routes_manager.dart';
 

@@ -1,10 +1,10 @@
-import 'package:fada_alhalij_web/features/about/about_view.dart';
-import 'package:fada_alhalij_web/features/about/about_view_web.dart';
-import 'package:fada_alhalij_web/features/address/presentation/pages/addresses_view.dart';
-import 'package:fada_alhalij_web/features/auth/presentation/pages/auth_screen.dart';
-import 'package:fada_alhalij_web/features/profile/presentation/widgets/edit_info_user_form_view.dart';
-import 'package:fada_alhalij_web/features/terms/terms_view.dart';
-import 'package:fada_alhalij_web/features/terms/terms_view_web.dart';
+import 'package:manarat_amjad/features/about/about_view.dart';
+import 'package:manarat_amjad/features/about/about_view_web.dart';
+import 'package:manarat_amjad/features/address/presentation/pages/addresses_view.dart';
+import 'package:manarat_amjad/features/auth/presentation/pages/auth_screen.dart';
+import 'package:manarat_amjad/features/profile/presentation/widgets/edit_info_user_form_view.dart';
+import 'package:manarat_amjad/features/terms/terms_view.dart';
+import 'package:manarat_amjad/features/terms/terms_view_web.dart';
 import 'package:flutter/material.dart';
 import '../../features/best_deals/presention/pages/best_deals_view.dart';
 import '../../features/home/presentation/pages/home_view.dart';

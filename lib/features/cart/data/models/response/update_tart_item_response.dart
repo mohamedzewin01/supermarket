@@ -1,4 +1,4 @@
-import 'package:fada_alhalij_web/features/cart/domain/entities/cart_entities.dart';
+import 'package:manarat_amjad/features/cart/domain/entities/cart_entities.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'update_tart_item_response.g.dart';

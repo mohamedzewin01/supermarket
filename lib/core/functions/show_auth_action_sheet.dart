@@ -1,9 +1,9 @@
 // import 'package:auto_size_text/auto_size_text.dart';
-// import 'package:fada_alhalij_web/core/resources/assets_manager.dart';
-// import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-// import 'package:fada_alhalij_web/core/resources/routes_manager.dart';
-// import 'package:fada_alhalij_web/core/resources/style_manager.dart';
-// import 'package:fada_alhalij_web/core/widgets/custom_elevated_button.dart';
+// import 'package:manarat_amjad/core/resources/assets_manager.dart';
+// import 'package:manarat_amjad/core/resources/color_manager.dart';
+// import 'package:manarat_amjad/core/resources/routes_manager.dart';
+// import 'package:manarat_amjad/core/resources/style_manager.dart';
+// import 'package:manarat_amjad/core/widgets/custom_elevated_button.dart';
 // import 'package:flutter/material.dart';
 //
 // // void showAuthActionSheet(BuildContext context) {

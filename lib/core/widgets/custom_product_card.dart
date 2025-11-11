@@ -1,24 +1,24 @@
 
 import 'package:another_flushbar/flushbar.dart';
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:fada_alhalij_web/core/di/di.dart';
-import 'package:fada_alhalij_web/core/functions/is_user_logged_in.dart';
-import 'package:fada_alhalij_web/core/resources/assets_manager.dart';
-import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-import 'package:fada_alhalij_web/core/resources/style_manager.dart';
-import 'package:fada_alhalij_web/core/resources/values_manager.dart';
-import 'package:fada_alhalij_web/features/analytics/analytics_helper.dart';
-import 'package:fada_alhalij_web/features/cart/presentation/cubit/cart_cubit.dart';
+import 'package:manarat_amjad/core/di/di.dart';
+import 'package:manarat_amjad/core/functions/is_user_logged_in.dart';
+import 'package:manarat_amjad/core/resources/assets_manager.dart';
+import 'package:manarat_amjad/core/resources/color_manager.dart';
+import 'package:manarat_amjad/core/resources/style_manager.dart';
+import 'package:manarat_amjad/core/resources/values_manager.dart';
+import 'package:manarat_amjad/features/analytics/analytics_helper.dart';
+import 'package:manarat_amjad/features/cart/presentation/cubit/cart_cubit.dart';
 
-import 'package:fada_alhalij_web/features/products/presentation/widgets/product_details.dart';
-import 'package:fada_alhalij_web/l10n/app_localizations.dart';
+import 'package:manarat_amjad/features/products/presentation/widgets/product_details.dart';
+import 'package:manarat_amjad/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:skeletonizer/skeletonizer.dart';
 import '../resources/cashed_image.dart';
-import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
+import 'package:manarat_amjad/features/products/data/models/response/get_products_by_category_model.dart';
 
 class CustomProductCardWidget extends StatelessWidget {
   const CustomProductCardWidget({super.key, this.product});
@@ -320,19 +320,19 @@ class _ButtonAddToCartState extends State<ButtonAddToCart> {
 
 // import 'package:another_flushbar/flushbar.dart';
 // import 'package:auto_size_text/auto_size_text.dart';
-// import 'package:fada_alhalij_web/core/di/di.dart';
-// import 'package:fada_alhalij_web/core/functions/is_user_logged_in.dart';
-// import 'package:fada_alhalij_web/core/resources/assets_manager.dart';
-// import 'package:fada_alhalij_web/core/resources/color_manager.dart';
-// import 'package:fada_alhalij_web/features/analytics/analytics_helper.dart';
-// import 'package:fada_alhalij_web/features/cart/presentation/cubit/cart_cubit.dart';
-// import 'package:fada_alhalij_web/features/products/presentation/widgets/product_details.dart';
+// import 'package:manarat_amjad/core/di/di.dart';
+// import 'package:manarat_amjad/core/functions/is_user_logged_in.dart';
+// import 'package:manarat_amjad/core/resources/assets_manager.dart';
+// import 'package:manarat_amjad/core/resources/color_manager.dart';
+// import 'package:manarat_amjad/features/analytics/analytics_helper.dart';
+// import 'package:manarat_amjad/features/cart/presentation/cubit/cart_cubit.dart';
+// import 'package:manarat_amjad/features/products/presentation/widgets/product_details.dart';
 // import 'package:flutter/material.dart';
 // import 'package:flutter_bloc/flutter_bloc.dart';
 // import 'package:flutter_svg/svg.dart';
 // import 'package:skeletonizer/skeletonizer.dart';
 // import '../resources/cashed_image.dart';
-// import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
+// import 'package:manarat_amjad/features/products/data/models/response/get_products_by_category_model.dart';
 //
 // class CustomProductCardWidget extends StatelessWidget {
 //   const CustomProductCardWidget({super.key, this.product});

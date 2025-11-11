@@ -1,4 +1,4 @@
-import 'package:fada_alhalij_web/features/best_deals/domain/entities/best_deals_by_categories_entity.dart';
+import 'package:manarat_amjad/features/best_deals/domain/entities/best_deals_by_categories_entity.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'fetch_best_deals.g.dart';

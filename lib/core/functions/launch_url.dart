@@ -2,7 +2,7 @@
 import 'dart:io';
 import 'dart:ui';
 import 'package:flutter/foundation.dart' show kIsWeb, debugPrint, Uint8List;
-import 'package:fada_alhalij_web/core/api/api_constants.dart';
+import 'package:manarat_amjad/core/api/api_constants.dart';
 import 'package:http/http.dart' as http;
 import 'package:share_plus/share_plus.dart';
 

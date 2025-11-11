@@ -1,6 +1,6 @@
 
 
-import 'package:fada_alhalij_web/features/cart/data/models/response/cart_dto.dart';
+import 'package:manarat_amjad/features/cart/data/models/response/cart_dto.dart';
 
 class AddToCartEntity {
 

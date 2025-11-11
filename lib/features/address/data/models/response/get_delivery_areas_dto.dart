@@ -1,4 +1,4 @@
-import 'package:fada_alhalij_web/features/address/domain/entities/address_entity.dart';
+import 'package:manarat_amjad/features/address/domain/entities/address_entity.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'get_delivery_areas_dto.g.dart';

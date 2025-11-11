@@ -1,4 +1,4 @@
-import 'package:fada_alhalij_web/features/search/data/models/response/search_dto.dart';
+import 'package:manarat_amjad/features/search/data/models/response/search_dto.dart';
 
 class SearchEntity {
   final bool? status;

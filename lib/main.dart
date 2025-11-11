@@ -1,6 +1,6 @@
 
 
-import 'package:fada_alhalij_web/core/utils/remote_config.dart';
+import 'package:manarat_amjad/core/utils/remote_config.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -8,7 +8,7 @@ import 'core/utils/myTheme.dart';
 import 'firebase_options.dart';
 import 'l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:fada_alhalij_web/core/resources/routes_manager.dart';
+import 'package:manarat_amjad/core/resources/routes_manager.dart';
 
 import 'core/di/di.dart';
 import 'core/utils/cashed_data_shared_preferences.dart';

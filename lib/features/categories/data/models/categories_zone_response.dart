@@ -1,4 +1,4 @@
-import 'package:fada_alhalij_web/features/categories/domain/entities/categories_zone_entity.dart';
+import 'package:manarat_amjad/features/categories/domain/entities/categories_zone_entity.dart';
 
 class CategoriesZoneResponse {
   String? status;

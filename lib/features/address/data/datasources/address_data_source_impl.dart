@@ -1,14 +1,14 @@
-import 'package:fada_alhalij_web/core/api/api_extentions.dart';
-import 'package:fada_alhalij_web/core/api/api_manager/api_manager.dart';
-import 'package:fada_alhalij_web/core/common/api_result.dart';
-import 'package:fada_alhalij_web/core/utils/cashed_data_shared_preferences.dart';
-import 'package:fada_alhalij_web/features/address/data/datasources/address_data_source.dart';
+import 'package:manarat_amjad/core/api/api_extentions.dart';
+import 'package:manarat_amjad/core/api/api_manager/api_manager.dart';
+import 'package:manarat_amjad/core/common/api_result.dart';
+import 'package:manarat_amjad/core/utils/cashed_data_shared_preferences.dart';
+import 'package:manarat_amjad/features/address/data/datasources/address_data_source.dart';
 
-import 'package:fada_alhalij_web/features/address/data/models/request/edit_address_request.dart';
-import 'package:fada_alhalij_web/features/address/data/models/request/get_user_addresses.dart';
-import 'package:fada_alhalij_web/features/address/domain/entities/address_entity.dart';
-import 'package:fada_alhalij_web/features/cart/data/models/request/add_address.dart';
-import 'package:fada_alhalij_web/features/cart/domain/entities/cart_entities.dart';
+import 'package:manarat_amjad/features/address/data/models/request/edit_address_request.dart';
+import 'package:manarat_amjad/features/address/data/models/request/get_user_addresses.dart';
+import 'package:manarat_amjad/features/address/domain/entities/address_entity.dart';
+import 'package:manarat_amjad/features/cart/data/models/request/add_address.dart';
+import 'package:manarat_amjad/features/cart/domain/entities/cart_entities.dart';
 import 'package:injectable/injectable.dart';
 
 @Injectable(as: AddressDataSource)

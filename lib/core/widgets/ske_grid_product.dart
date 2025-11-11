@@ -1,9 +1,9 @@
-import 'package:fada_alhalij_web/core/api/api_constants.dart';
-import 'package:fada_alhalij_web/core/widgets/custom_product_card.dart';
+import 'package:manarat_amjad/core/api/api_constants.dart';
+import 'package:manarat_amjad/core/widgets/custom_product_card.dart';
 
 import 'package:flutter/material.dart';
 import 'package:skeletonizer/skeletonizer.dart';
-import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
+import 'package:manarat_amjad/features/products/data/models/response/get_products_by_category_model.dart';
 
 
 class SkeGridProduct extends StatelessWidget {

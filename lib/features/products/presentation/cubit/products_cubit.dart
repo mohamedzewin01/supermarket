@@ -1,7 +1,7 @@
 // // import 'package:bloc/bloc.dart';
-// // import 'package:fada_alhalij_web/core/common/api_result.dart';
-// // import 'package:fada_alhalij_web/features/products/domain/entities/products_entities.dart';
-// // import 'package:fada_alhalij_web/features/products/domain/use_cases/products_use_case.dart';
+// // import 'package:manarat_amjad/core/common/api_result.dart';
+// // import 'package:manarat_amjad/features/products/domain/entities/products_entities.dart';
+// // import 'package:manarat_amjad/features/products/domain/use_cases/products_use_case.dart';
 // // import 'package:injectable/injectable.dart';
 // // import 'package:meta/meta.dart';
 // //
@@ -33,11 +33,11 @@
 // // }
 //
 // import 'package:bloc/bloc.dart';
-// import 'package:fada_alhalij_web/core/common/api_result.dart';
+// import 'package:manarat_amjad/core/common/api_result.dart';
 //
-// import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
-// import 'package:fada_alhalij_web/features/products/domain/entities/products_entities.dart';
-// import 'package:fada_alhalij_web/features/products/domain/use_cases/products_use_case.dart';
+// import 'package:manarat_amjad/features/products/data/models/response/get_products_by_category_model.dart';
+// import 'package:manarat_amjad/features/products/domain/entities/products_entities.dart';
+// import 'package:manarat_amjad/features/products/domain/use_cases/products_use_case.dart';
 // import 'package:injectable/injectable.dart';
 // import 'package:meta/meta.dart';
 //
@@ -173,11 +173,11 @@
 
 
 import 'package:bloc/bloc.dart';
-import 'package:fada_alhalij_web/core/common/api_result.dart';
+import 'package:manarat_amjad/core/common/api_result.dart';
 
-import 'package:fada_alhalij_web/features/products/data/models/response/get_products_by_category_model.dart';
-import 'package:fada_alhalij_web/features/products/domain/entities/products_entities.dart';
-import 'package:fada_alhalij_web/features/products/domain/use_cases/products_use_case.dart';
+import 'package:manarat_amjad/features/products/data/models/response/get_products_by_category_model.dart';
+import 'package:manarat_amjad/features/products/domain/entities/products_entities.dart';
+import 'package:manarat_amjad/features/products/domain/use_cases/products_use_case.dart';
 import 'package:injectable/injectable.dart';
 import 'package:meta/meta.dart';
 
