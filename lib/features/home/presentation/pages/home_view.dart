@@ -88,14 +88,13 @@ class _HomeViewState extends State<HomeView> {
                           Column(
                             children: [
                               SizedBox(height: 8),
-                              SeeAllView(
+                              _buildSectionHeader(
                                 context: context,
-                                name:
-                                '${AppLocalizations.of(context)!.categories} 🛍️',
-                                onTapAction: () {
-                                  LayoutCubit.get(context).changeIndex(1);
-                                },
+                                title: '${AppLocalizations.of(context)!.categories} 🛍️',
+                                onTap: () => LayoutCubit.get(context).changeIndex(1),
+                                icon: Icons.apps_rounded,
                               ),
+
                               SizedBox(height: 16),
                               GridCategories(categories: categories),
                               SizedBox(height: 16),
@@ -104,20 +103,32 @@ class _HomeViewState extends State<HomeView> {
                                 child: Carousel(banners: banners),
                               ),
                               SizedBox(height: 16),
-                              SeeAllView(
+                              bestDeals.isNotEmpty? _buildSectionHeader(
                                 context: context,
-                                name:
-                                "${AppLocalizations.of(context)!.bestDeals} 🔥",
-                                onTapAction: () {
+                                title: "${AppLocalizations.of(context)!.bestDeals} 🔥",
+                                onTap: () {
                                   Navigator.pushNamed(
                                     context,
                                     RoutesManager.bestDealsAdaptive,
                                     arguments: bestDeals,
                                   );
                                 },
-                              ),
+                                icon: Icons.local_fire_department_rounded,
+                              ):SizedBox(),
+                              // SeeAllView(
+                              //   context: context,
+                              //   name:
+                              //   "${AppLocalizations.of(context)!.bestDeals} 🔥",
+                              //   onTapAction: () {
+                              //     Navigator.pushNamed(
+                              //       context,
+                              //       RoutesManager.bestDealsAdaptive,
+                              //       arguments: bestDeals,
+                              //     );
+                              //   },
+                              // ),
                               SizedBox(height: 16),
-                              BestDealsProductList(bestDeals: bestDeals),
+                              bestDeals.isNotEmpty?   BestDealsProductList(bestDeals: bestDeals):SizedBox(),
                               SizedBox(height: 12),
                               AutoSizeText(
                                 AppConstants.version,
@@ -152,6 +163,103 @@ class _HomeViewState extends State<HomeView> {
 
 
   }
+  Widget _buildSectionHeader({
+    required BuildContext context,
+    required String title,
+    required VoidCallback onTap,
+    required IconData icon,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16),
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [
+              ColorManager.primaryColor.withOpacity(0.1),
+              Colors.transparent,
+            ],
+          ),
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(
+            color: ColorManager.primaryColor.withOpacity(0.2),
+            width: 1,
+          ),
+        ),
+        child: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                color: ColorManager.primaryColor.withOpacity(0.15),
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: Icon(
+                icon,
+                color: ColorManager.primaryColor,
+                size: 20,
+              ),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Text(
+                title,
+                style: getBoldStyle(
+                  color: ColorManager.textColor,
+                  fontSize: 18,
+                ),
+              ),
+            ),
+            Material(
+              color: Colors.transparent,
+              child: InkWell(
+                onTap: onTap,
+                borderRadius: BorderRadius.circular(20),
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      colors: [
+                        ColorManager.primaryColor,
+                        ColorManager.primaryColor.withOpacity(0.8),
+                      ],
+                    ),
+                    borderRadius: BorderRadius.circular(20),
+                    boxShadow: [
+                      BoxShadow(
+                        color: ColorManager.primaryColor.withOpacity(0.3),
+                        blurRadius: 8,
+                        offset: const Offset(0, 3),
+                      ),
+                    ],
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        AppLocalizations.of(context)!.seeAll,
+                        style: getSemiBoldStyle(
+                          color: Colors.white,
+                          fontSize: 13,
+                        ),
+                      ),
+                      const SizedBox(width: 4),
+                      const Icon(
+                        Icons.arrow_forward_ios_rounded,
+                        color: Colors.white,
+                        size: 14,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
 }
 
 
